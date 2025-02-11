@@ -844,7 +844,7 @@
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                           </ui:CommentOut>
-                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1044.8,176" sap2010:WorkflowViewState.IdRef="LogMessage_90" Level="Info" Message="[&quot;Opening the Master client locator&quot;]" />
+                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1044.8,176" sap2010:WorkflowViewState.IdRef="LogMessage_90" Level="Info" Message="[&quot;Opening the Master client locator -&quot;+in_Config(&quot;DRLMasterLocator-Ultra&quot;).ToString]" />
                                           <ui:RetryScope DisplayName="Retry Scope - Opening client window" sap:VirtualizedContainerService.HintSize="1044.8,56.8" sap2010:WorkflowViewState.IdRef="RetryScope_13" NumberOfRetries="3" RetryInterval="00:00:15">
                                             <ui:RetryScope.ActivityBody>
                                               <ActivityAction>
