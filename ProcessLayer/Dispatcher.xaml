@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1440.8,19680.8</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1440.8,19545.6</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Dispatcher_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -50,6 +50,12 @@
       <x:String>System.Activities.Runtime.Collections</x:String>
       <x:String>UiPath.Excel.Helpers</x:String>
       <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -118,6 +124,9 @@
       <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
       <AssemblyReference>System.CodeDom</AssemblyReference>
       <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -126,7 +135,7 @@
       <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Dispatcher" sap:VirtualizedContainerService.HintSize="1451.2,19616" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Dispatcher" sap:VirtualizedContainerService.HintSize="1451.2,19480.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="str_ExecStatus" />
       <Variable x:TypeArguments="x:String" Name="str_TaxSoftware" />
@@ -140,7 +149,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="ServiceLayer Check" sap:VirtualizedContainerService.HintSize="1388.8,19504" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="ServiceLayer Check" sap:VirtualizedContainerService.HintSize="1388.8,19392" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="sd:DataTable" Name="dt_InputMappingData" />
         <Variable x:TypeArguments="sd:DataTable" Name="dt_ClientCreationMappingData" />
@@ -154,10 +163,10 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1326.4,142.4" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Inititated Dispatcher process&quot;]" />
-      <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="1326.4,134.4" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="Excel" />
-      <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[dt_InputMappingData]" DisplayName="Read Range Workbook - InputMappingData" sap:VirtualizedContainerService.HintSize="1326.4,88" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="[in_Config(&quot;InSheet_MappingSheet&quot;).ToString]" WorkbookPath="[in_Config(&quot;InFile_MappingSheet&quot;).ToString]" />
-      <ui:FilterDataTable sap2010:Annotation.AnnotationText="Filter out processed data" DataTable="[dt_InputMappingData]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="1326.4,193.6" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[dt_ClientCreationMappingData]" SelectColumnsMode="Remove">
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1326.4,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Inititated Dispatcher process&quot;]" />
+      <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="1326.4,166.4" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="Excel" />
+      <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[dt_InputMappingData]" DisplayName="Read Range Workbook - InputMappingData" sap:VirtualizedContainerService.HintSize="1326.4,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="[in_Config(&quot;InSheet_MappingSheet&quot;).ToString]" WorkbookPath="[in_Config(&quot;InFile_MappingSheet&quot;).ToString]" />
+      <ui:FilterDataTable sap2010:Annotation.AnnotationText="Filter out processed data" DataTable="[dt_InputMappingData]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="1326.4,225.6" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[dt_ClientCreationMappingData]" SelectColumnsMode="Remove">
         <ui:FilterDataTable.Filters>
           <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
             <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">

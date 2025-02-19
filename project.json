@@ -4,10 +4,11 @@
   "description": "A UiPath Studio template upon which you can build, test and run attended and unattended business processes, irrespective of process data types and process linearity",
   "main": "Main.xaml",
   "dependencies": {
+    "LacerteLogin": "[1.0.4]",
     "RunModeLibrary": "[1.0.2]",
     "UiPath.Credentials.Activities": "[2.0.0]",
     "UiPath.Excel.Activities": "[2.22.3]",
-    "UiPath.System.Activities": "[24.10.3]",
+    "UiPath.System.Activities": "[24.10.5]",
     "UiPath.Testing.Activities": "[23.4.1]",
     "UiPath.UIAutomation.Activities": "[24.10.0]"
   },
