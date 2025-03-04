@@ -9,7 +9,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1664.8,19021.6</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1664.8,19088.8</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ProcessTransaction_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="88">
@@ -62,6 +62,8 @@
       <x:String>System.Activities.Runtime.Collections</x:String>
       <x:String>System.Text.RegularExpressions</x:String>
       <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -144,7 +146,7 @@
       <x:Boolean x:Key="ShouldCollapseAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="1675.2,18956.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Invoke major steps of the business process, which are usually implemented by multiple subworkflows.&#xA;&#xA;If a BusinessRuleException is thrown, the transaction is skipped. &#xA;If another kind of exception occurs, the current transaction can be retried. " DisplayName="Process" sap:VirtualizedContainerService.HintSize="1675.2,19024" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:QueueItem" Default="[in_TransactionItem]" Name="ClientCreationInput" />
       <Variable x:TypeArguments="x:Boolean" Name="DisabledCreateBinderButton" />
@@ -639,20 +641,20 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:InvokeWorkflowFile>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Search Clients" sap:VirtualizedContainerService.HintSize="1612.8,3153.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="a6e82c9b-8606-42c7-995e-412616be92ff" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Search Clients" sap:VirtualizedContainerService.HintSize="1612.8,3193.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="a6e82c9b-8606-42c7-995e-412616be92ff" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1579.2,2904.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1579.2,2944.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheckState DisplayName="Check App State 'Overview' (c)" sap:VirtualizedContainerService.HintSize="1516.8,2814.4" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="a6e82c9b-8606-42c7-995e-412616be92ff" Timeout="30" Version="V3">
+            <uix:NCheckState DisplayName="Check App State 'Overview' (c)" sap:VirtualizedContainerService.HintSize="1516.8,2854.4" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="a6e82c9b-8606-42c7-995e-412616be92ff" Timeout="30" Version="V3">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1014.4,2571.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <Sequence.Variables>
@@ -1003,13 +1005,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Jack Anderson - Upload Doc TaxCaddy CPA" sap:VirtualizedContainerService.HintSize="1612.8,10160" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="ee79a5e9-e7ea-48f6-adb9-cd8345a3b134" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Jack Anderson - Upload Doc TaxCaddy CPA" sap:VirtualizedContainerService.HintSize="1612.8,10215.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="ee79a5e9-e7ea-48f6-adb9-cd8345a3b134" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="819.2,9911.2" sap2010:WorkflowViewState.IdRef="Sequence_27">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="819.2,9966.4" sap2010:WorkflowViewState.IdRef="Sequence_27">
             <Sequence.Variables>
               <Variable x:TypeArguments="si:FileInfo" Name="File_BinderFile" />
               <Variable x:TypeArguments="x:Boolean" Name="bool_Consent" />
@@ -1676,7 +1678,7 @@
                 <InArgument x:TypeArguments="s:String[]">[File.Split(","c)]</InArgument>
               </Assign.Value>
             </Assign>
-            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="756.8,3347.2" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="756.8,3402.4" sap2010:WorkflowViewState.IdRef="TryCatch_1">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsPinned">True</x:Boolean>
@@ -1684,13 +1686,47 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <TryCatch.Try>
-                <Sequence sap:VirtualizedContainerService.HintSize="720,3084" sap2010:WorkflowViewState.IdRef="Sequence_42">
+                <Sequence sap:VirtualizedContainerService.HintSize="720,3139.2" sap2010:WorkflowViewState.IdRef="Sequence_42">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
+                  <Sequence DisplayName="Sequence - vk" sap:VirtualizedContainerService.HintSize="657.6,56.8" sap2010:WorkflowViewState.IdRef="Sequence_85">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="str_DocumentsRequested" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NGetText DisplayName="Get Text 'Documents'" sap:VirtualizedContainerService.HintSize="387.2,189.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="ee79a5e9-e7ea-48f6-adb9-cd8345a3b134" TextString="[str_DocumentsRequested]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/offlineclient/1680746/2024/tax-documents/requests" CVScreenId="2d3395f1-d2e2-4dda-b239-4b3a6a02bc63" CvElementArea="183, 663, 208, 46" CvTextArea="199, 676, 180, 21" CvTextArgument="Requested Items (49)" CvType="Button" DesignTimeRectangle="186, 665, 206, 43" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' aaname='Requested Items *' /&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='*- TaxCaddy CPA' /&gt;&lt;webctrl tag='BUTTON' aaname='Requested Items *' /&gt;" Guid="85df6767-665d-4ed3-8411-6dc7a36f2a89" ImageBase64="" InformativeScreenshot="abf6bd93053f2277d575f463f941da95.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*- TaxCaddy CPA' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="2d3395f1-d2e2-4dda-b239-4b3a6a02bc63" CvTextArea="251, 561, 96, 16" CvTextArgument="Documents" CvType="Text" DesignTimeRectangle="251, 559, 97, 23" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Documents' parentid='test-clientDetails' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Documents' parentid='test-clientDetails' tag='SPAN' type='' class='_2Xnh-' check:innerText='Documents' /&gt;" Guid="546fa484-2277-4275-af9e-2399944c2e30" SearchSteps="Selector, FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NGetText>
+                    <ui:LogMessage DisplayName="Log Message - Requested document" sap:VirtualizedContainerService.HintSize="387.2,168.8" sap2010:WorkflowViewState.IdRef="LogMessage_34" Level="Info" Message="[&quot;The requested document is - &quot;+str_DocumentsRequested]">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:LogMessage>
+                  </Sequence>
                   <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="3" DisplayName="Click 'Uploaded Documents (0)'" sap:VirtualizedContainerService.HintSize="657.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_84" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee79a5e9-e7ea-48f6-adb9-cd8345a3b134" Timeout="60" Version="V3">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/offlineclient/948028/2022/tax-documents/uploaded" DesignTimeRectangle="293, 418, 191, 34" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Uploaded Documents (*)' aria-role='tab' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Uploaded Documents (*)' aria-role='tab' tag='BUTTON' type='button' class='MuiButtonBase-root MuiToggleButton-root MuiToggleButtonGroup-grouped Mui-selected' check:innerText='Uploaded Documents (0)' /&gt;" Guid="a4957829-a44f-4d2d-b876-99ee9d00ed71" ImageBase64="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" InformativeScreenshot="432409b9e2127998fa20fd8ff9c55890.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*- TaxCaddy CPA' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V1" Visibility="Interactive">
@@ -1976,7 +2012,7 @@
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                     </ActivityAction.Argument>
-                    <Sequence sap:VirtualizedContainerService.HintSize="449.6,356.8" sap2010:WorkflowViewState.IdRef="Sequence_43">
+                    <Sequence sap:VirtualizedContainerService.HintSize="416,381.6" sap2010:WorkflowViewState.IdRef="Sequence_43">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2863,7 +2899,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:FilterDataTable>
-    <Assign sap:VirtualizedContainerService.HintSize="1612.8,81.6" sap2010:WorkflowViewState.IdRef="Assign_35">
+    <Assign sap:VirtualizedContainerService.HintSize="1612.8,56.8" sap2010:WorkflowViewState.IdRef="Assign_35">
       <Assign.To>
         <OutArgument x:TypeArguments="sd:DataRow">[dr_FilteredQRow]</OutArgument>
       </Assign.To>
@@ -2871,7 +2907,7 @@
         <InArgument x:TypeArguments="sd:DataRow">[dt_InTaxCaddy.Rows(0)]</InArgument>
       </Assign.Value>
     </Assign>
-    <Assign sap:VirtualizedContainerService.HintSize="1612.8,83.2" sap2010:WorkflowViewState.IdRef="Assign_36">
+    <Assign sap:VirtualizedContainerService.HintSize="1612.8,56.8" sap2010:WorkflowViewState.IdRef="Assign_36">
       <Assign.To>
         <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)">[dic_WizardQueueItem]</OutArgument>
       </Assign.To>
@@ -2886,7 +2922,7 @@ Select t=Tuple.Create(name, dr_FilteredQRow(i))).ToDictionary(Function (x) x.Ite
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <ui:RetryScope DisplayName="Add Queue Item" sap:VirtualizedContainerService.HintSize="1612.8,601.6" sap2010:WorkflowViewState.IdRef="RetryScope_11" NumberOfRetries="3" RetryInterval="00:00:05">
+    <ui:RetryScope DisplayName="Add Queue Item" sap:VirtualizedContainerService.HintSize="1612.8,624.8" sap2010:WorkflowViewState.IdRef="RetryScope_11" NumberOfRetries="3" RetryInterval="00:00:05">
       <ui:RetryScope.ActivityBody>
         <ActivityAction>
           <TryCatch DisplayName="Add Queue Item" sap:VirtualizedContainerService.HintSize="436.8,425.6" sap2010:WorkflowViewState.IdRef="TryCatch_10">
@@ -2909,7 +2945,7 @@ Select t=Tuple.Create(name, dr_FilteredQRow(i))).ToDictionary(Function (x) x.Ite
               </ui:AddQueueItem>
             </TryCatch.Try>
             <TryCatch.Catches>
-              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,22.4" sap2010:WorkflowViewState.IdRef="Catch`1_10">
+              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,23.2" sap2010:WorkflowViewState.IdRef="Catch`1_10">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>

@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1010.4000000000001,5200</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1103.2,6874.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>DRLClientIntegration_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -53,6 +53,7 @@
       <x:String>UiPath.Platform.SyncObjects</x:String>
       <x:String>System.Linq.Expressions</x:String>
       <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -116,7 +117,7 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="707.2,5135.2" sap2010:WorkflowViewState.IdRef="Sequence_12">
+  <Sequence sap:VirtualizedContainerService.HintSize="969.6,6809.6" sap2010:WorkflowViewState.IdRef="Sequence_12">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="errorDRL" />
       <Variable x:TypeArguments="x:String" Name="errorInnerHTML" />
@@ -126,9 +127,9 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="DRL Creation" sap:VirtualizedContainerService.HintSize="644.8,5046.4" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+    <TryCatch DisplayName="DRL Creation" sap:VirtualizedContainerService.HintSize="907.2,6720.8" sap2010:WorkflowViewState.IdRef="TryCatch_2">
       <TryCatch.Try>
-        <Sequence DisplayName="DRL Client Integration" sap:VirtualizedContainerService.HintSize="608,4792" sap2010:WorkflowViewState.IdRef="Sequence_1">
+        <Sequence DisplayName="DRL Client Integration" sap:VirtualizedContainerService.HintSize="870.4,6466.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="statusDRLCreation" />
           </Sequence.Variables>
@@ -138,19 +139,19 @@
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="545.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;DRL Integration of client: &quot;+in_ClientID+&quot; started&quot;]" />
-          <ui:RetryScope DisplayName="DRL Creation" sap:VirtualizedContainerService.HintSize="545.6,3372" sap2010:WorkflowViewState.IdRef="RetryScope_3" NumberOfRetries="2">
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="808,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;DRL Integration of client: &quot;+in_ClientID+&quot; started&quot;]" />
+          <ui:RetryScope DisplayName="DRL Creation" sap:VirtualizedContainerService.HintSize="808,5086.4" sap2010:WorkflowViewState.IdRef="RetryScope_3" NumberOfRetries="2">
             <ui:RetryScope.ActivityBody>
               <ActivityAction>
-                <TryCatch DisplayName="DRL Creation" sap:VirtualizedContainerService.HintSize="486.4,3084" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                <TryCatch DisplayName="DRL Creation" sap:VirtualizedContainerService.HintSize="766.4,4878.4" sap2010:WorkflowViewState.IdRef="TryCatch_1">
                   <TryCatch.Try>
-                    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Administrative - TaxCaddy CPA" sap:VirtualizedContainerService.HintSize="449.6,2852.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V2">
+                    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Administrative - TaxCaddy CPA" sap:VirtualizedContainerService.HintSize="729.6,4647.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V2">
                       <uix:NApplicationCard.Body>
                         <ActivityAction x:TypeArguments="x:Object">
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                           </ActivityAction.Argument>
-                          <Sequence DisplayName="DRL Creation" sap:VirtualizedContainerService.HintSize="416,2636" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                          <Sequence DisplayName="DRL Creation" sap:VirtualizedContainerService.HintSize="696,4430.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="x:String" Name="statusDRLSent" />
                             </Sequence.Variables>
@@ -160,7 +161,7 @@
                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayAfter="6" DelayBefore="3" DisplayName="Query Client List" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Text="[in_ClientID + &quot;[k(Enter)]&quot;]" Version="V3">
+                            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayAfter="6" DelayBefore="3" DisplayName="Query Client List" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="633.6,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Text="[in_ClientID + &quot;[k(Enter)]&quot;]" Version="V3">
                               <uix:NTypeInto.Target>
                                 <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/admin/clients/2023" CVScreenId="5883cf86-50f0-4e81-a382-9d36a82b1fa8" CvElementArea="1392, 414, 408, 50" CvType="InputBox" DesignTimeRectangle="1394, 416, 358, 47" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd' aaname='' /&gt;" Guid="676feae0-d6ec-4aec-9367-6811d6517f2f" InformativeScreenshot="13ea89fa5ec4cf736fff8f52deb44da1.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*Administrative - TaxCaddy CPA' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
                                   <uix:TargetAnchorable.Anchors>
@@ -171,7 +172,7 @@
                                 </uix:TargetAnchorable>
                               </uix:NTypeInto.Target>
                             </uix:NTypeInto>
-                            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DelayBefore="2" DisplayName="Click 'Select client(s)'" sap:VirtualizedContainerService.HintSize="353.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DelayBefore="2" DisplayName="Click 'Select client(s)'" sap:VirtualizedContainerService.HintSize="633.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
                               <uix:NClick.Target>
                                 <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/admin/clients/2023" DesignTimeRectangle="473, 548, 25, 25" DesignTimeScaleFactor="1.25" ElementType="Icon" FullSelectorArgument="&lt;webctrl class='MuiSvgIcon-root' css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;span&amp;gt;span&amp;gt;svg' parentid='administrativeModules' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl class='MuiSvgIcon-root' type='' parentid='administrativeModules' tag='svg' aaname='' /&gt;" Guid="c480c314-8fcf-4bd1-8b18-25c8f84b8fc8" InformativeScreenshot="5ed0f166a147f8f639a08ea4bf7a3732.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*Administrative - TaxCaddy CPA' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
                                   <uix:TargetAnchorable.Anchors>
@@ -182,12 +183,12 @@
                                 </uix:TargetAnchorable>
                               </uix:NClick.Target>
                             </uix:NClick>
-                            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DelayBefore="1" DisplayName="Click 'Create Custom DRL'" sap:VirtualizedContainerService.HintSize="353.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DelayBefore="1" DisplayName="Click 'Create Custom DRL'" sap:VirtualizedContainerService.HintSize="633.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
                               <uix:NClick.Target>
                                 <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/admin/clients/2023" CVScreenId="a11683d0-b2a5-4596-923c-4fb4e068d07f" CvTextArea="659, 588, 164, 18" CvTextArgument="Create Custom DRL" CvType="Text" DesignTimeRectangle="660, 587, 388, 21" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Create Custom DRL' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Create Custom DRL' tag='BUTTON' type='button' class='_3oeLH' check:innerText='Create Custom DRL' /&gt;" Guid="0433812d-a6ff-4e6a-b702-c0bb0e736ec7" InformativeScreenshot="ba6538a20c5e25323246f61ef415c4ec.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*Administrative - TaxCaddy CPA' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive" />
                               </uix:NClick.Target>
                             </uix:NClick>
-                            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="1" DisplayName="Select DRL Entry" sap:VirtualizedContainerService.HintSize="353.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="1" DisplayName="Select DRL Entry" sap:VirtualizedContainerService.HintSize="633.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
                               <uix:NClick.Target>
                                 <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/admin/clients/2023" CVScreenId="9605a4b1-6cdc-4154-9243-185cc752bafc" CvElementArea="133, 676, 29, 29" CvType="CheckBox" DesignTimeRectangle="132, 674, 33, 33" DesignTimeScaleFactor="1.25" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='svg' class='MuiSvgIcon-root MuiSvgIcon-fontSizeLarge' aaname='' /&gt;" Guid="b896f1d6-fa1a-47a0-bb6a-6e52c4f2415e" InformativeScreenshot="ab1b8a68bd5f0154624d1e3d8e8161f6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*Administrative - TaxCaddy CPA' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
                                   <uix:TargetAnchorable.Anchors>
@@ -198,7 +199,7 @@
                                 </uix:TargetAnchorable>
                               </uix:NClick.Target>
                             </uix:NClick>
-                            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="1" DisplayName="Click 'CREATE CUSTOM DRL'" sap:VirtualizedContainerService.HintSize="353.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="1" DisplayName="Click 'CREATE CUSTOM DRL'" sap:VirtualizedContainerService.HintSize="633.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
                               <uix:NClick.Target>
                                 <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/admin/clients/2023" CVScreenId="f5e754a0-1446-4c03-9ae6-5109697beb07" CvElementArea="225, 967, 227, 46" CvTextArea="276, 982, 154, 15" CvTextArgument="CREATE CUSTOM DRL" CvType="Button" DesignTimeRectangle="279, 977, 151, 26" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='CREATE CUSTOM DRL' parentid='administrativeModules' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='CREATE CUSTOM DRL' parentid='administrativeModules' tag='SPAN' type='' class='' check:innerText='CREATE CUSTOM DRL' /&gt;" Guid="2a43a766-4ea6-49b3-9fc8-ea64c315ced5" InformativeScreenshot="df55449fd749e988979c9e8a53058a75.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*Administrative - TaxCaddy CPA' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
                                   <uix:TargetAnchorable.Anchors>
@@ -209,14 +210,14 @@
                                 </uix:TargetAnchorable>
                               </uix:NClick.Target>
                             </uix:NClick>
-                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Created Custom DRL&quot;]" />
-                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Lacerte_SignInPrompt - Invoke Workflow File (ServicesLayer\ClientCreation_TaxSoftwares\Tax Softwares\Lacerte\Lacerte_SignInPrompt.xaml)" sap:VirtualizedContainerService.HintSize="353.6,206.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ServicesLayer\ClientCreation_TaxSoftwares\Tax Softwares\Lacerte\Lacerte_SignInPrompt.xaml">
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="633.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Created Custom DRL&quot;]" />
+                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Lacerte_SignInPrompt - Invoke Workflow File (ServicesLayer\ClientCreation_TaxSoftwares\Tax Softwares\Lacerte\Lacerte_SignInPrompt.xaml)" sap:VirtualizedContainerService.HintSize="633.6,206.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ServicesLayer\ClientCreation_TaxSoftwares\Tax Softwares\Lacerte\Lacerte_SignInPrompt.xaml">
                               <ui:InvokeWorkflowFile.Arguments>
                                 <InArgument x:TypeArguments="x:String" x:Key="in_str_TaxSoftware">[in_TransactionItem.SpecificContent("TaxSoftware").ToString]</InArgument>
                                 <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[in_Config]</InArgument>
                               </ui:InvokeWorkflowFile.Arguments>
                             </ui:InvokeWorkflowFile>
-                            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="353.6,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_4">
+                            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="633.6,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_4">
                               <ui:CommentOut.Body>
                                 <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,136.8" sap2010:WorkflowViewState.IdRef="Sequence_44">
                                   <sap:WorkflowViewStateService.ViewState>
@@ -841,21 +842,21 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </ui:CommentOut>
-                            <ui:RetryScope DisplayName="Private: Refresh DRL Status (till Completed)" sap:VirtualizedContainerService.HintSize="353.6,56.8" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="5" RetryInterval="00:01:00">
+                            <ui:RetryScope DisplayName="Private: Refresh DRL Status (till Completed)" sap:VirtualizedContainerService.HintSize="633.6,1430.4" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="5" RetryInterval="00:01:00">
                               <ui:RetryScope.ActivityBody>
                                 <ActivityAction>
-                                  <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="688,1593.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                                  <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="592,1142.4" sap2010:WorkflowViewState.IdRef="Sequence_4">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DisplayName="Refresh DRL " sap:VirtualizedContainerService.HintSize="625.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DisplayName="Refresh DRL " sap:VirtualizedContainerService.HintSize="529.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
                                       <uix:NClick.Target>
                                         <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/admin/clients/2023" CVScreenId="f88bdc6b-ef42-4d29-9ed0-a5d0af78d114" CvElementArea="165, 545, 29, 29" CvType="Icon" DesignTimeRectangle="163, 543, 34, 34" DesignTimeScaleFactor="1.25" ElementType="Icon" FullSelectorArgument="&lt;webctrl class='MuiSvgIcon-root' parentid='administrativeModules' tag='svg' /&gt;" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl class='MuiSvgIcon-root' parentid='administrativeModules' tag='svg' type='' aaname='' /&gt;" Guid="b5240b10-83d5-4f0f-bdea-3d350bfc71a8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJvSURBVFhH7ZbLa1NBFIf9X3QhCPWxUauCiEW3LtStq2rBPha+qLWC0ocUKaUVqSDGpo25aRNjGlCbGlJr0tgs2lqJWlF8YJPm9S8c7xk6483k5CSRCBXu4lvkzm9OPu6dOTPbCoUCbAVsER1bRMcW0fl/RVIbWXCF30Hr/Vk40e2DhtZxaGgbh5M3fdA++gqMyCpsZHMl8wam4iXPrNQk4o8m4dAVA7Y3O1iOdk7CTGJNzRv0LYrn1lo6VYv0GQtFf7a7bQLO9Afh2qM5wem+afF2rJkh/yKMBBLqN1VXUpVIrzumih245AZP5D2ZQ5yzK7C3fULlrVB5SUWRQOyDKtTU5YW1b+tkzsrSpx/ijVklECorYUV+pjKw33wDWKTxshs+f0+ROZ273rclEgiVlbAiD18sqSK++SSZ0Rny/1kTOlRewoqcG3wuCuC6oMZ1+j3FC1qHmiNhRRo3t2rHgzA5biUY/yh2Dgc1T8KK7LroFCK3XFFyvJ6wIrIvdDvnyfF6woocuz4lRJqHX5Lj9YQVuTASEiL7OlyQz9MZDjyXcAEjuIaojIQVGQutCBHEYLppOQYm42o+NkYqI2FF1tNZ0ciwUC0NDcHuKtfYcbMj5/J5MidhRZDpv2jx0dWv4nPKecEF/rMgFUWQXqP40CvXZdOZnPgcO1vGVL7nSYzM6lQlgtw2e4ksjuwxT9izd4LQ6ZiDrsevxc46ctWjxnecd8DwswRZi6JqEeTpmyQc3DwEOQ6bQpHlL2SNctQkgvxKZ8RuarkXgqYbXrEg8f5xqidgXhXD4JhZJq+KlahZ5F9hi+jYIjpbRKQAvwFq0iKXa/au7QAAAABJRU5ErkJggg==" InformativeScreenshot="adbed81e11dff613a8de2dc4b729c15e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*Administrative - TaxCaddy CPA' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive" />
                                       </uix:NClick.Target>
                                     </uix:NClick>
-                                    <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Fetch DRL Status" sap:VirtualizedContainerService.HintSize="625.6,139.2" sap2010:WorkflowViewState.IdRef="GetValue_3">
+                                    <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Fetch DRL Status" sap:VirtualizedContainerService.HintSize="529.6,139.2" sap2010:WorkflowViewState.IdRef="GetValue_3">
                                       <ui:GetValue.Target>
                                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="6f26caa1-6436-4ac6-8a50-87b7a09a69df" InformativeScreenshot="6314d2d1a546527053ed327b54878572" Selector="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='DIV' type='*' tableCol='2' /&gt;">
                                           <ui:Target.TimeoutMS>
@@ -870,7 +871,7 @@
                                         <OutArgument x:TypeArguments="x:String">[statusDRLCreation]</OutArgument>
                                       </ui:GetValue.Value>
                                     </ui:GetValue>
-                                    <If Condition="[statusDRLCreation.Trim.ToUpper.Equals(&quot;COMPLETED&quot;)]" DisplayName="status DRL validate" sap:VirtualizedContainerService.HintSize="625.6,1176" sap2010:WorkflowViewState.IdRef="If_4">
+                                    <If Condition="[statusDRLCreation.Trim.ToUpper.Equals(&quot;COMPLETED&quot;)]" DisplayName="status DRL validate" sap:VirtualizedContainerService.HintSize="529.6,724.8" sap2010:WorkflowViewState.IdRef="If_4">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -878,14 +879,15 @@
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
                                       <If.Then>
-                                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="496,368" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="496,426.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;DRL Status - &quot;+statusDRLCreation]" />
-                                          <Assign sap:VirtualizedContainerService.HintSize="433.6,104.8" sap2010:WorkflowViewState.IdRef="Assign_4">
+                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;DRL Status - &quot;+statusDRLCreation]" />
+                                          <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_4">
                                             <Assign.To>
                                               <OutArgument x:TypeArguments="x:Boolean">[errorDRL]</OutArgument>
                                             </Assign.To>
@@ -893,19 +895,99 @@
                                               <InArgument x:TypeArguments="x:Boolean">False</InArgument>
                                             </Assign.Value>
                                           </Assign>
+                                          <If Condition="[in_TransactionItem.SpecificContent(&quot;TaxSoftware&quot;).ToString=&quot;UltraTax CS&quot; Or in_TransactionItem.SpecificContent(&quot;TaxSoftware&quot;).ToString=&quot;Lacerte&quot;]" DisplayName="If - Only for Go system and CCH tax software" sap:VirtualizedContainerService.HintSize="433.6,48" sap2010:WorkflowViewState.IdRef="If_11">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <If.Then>
+                                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,24.8" sap2010:WorkflowViewState.IdRef="Sequence_48">
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                              </Sequence>
+                                            </If.Then>
+                                            <If.Else>
+                                              <Sequence DisplayName="Else - Getting DRL Id" sap:VirtualizedContainerService.HintSize="496,2174.4" sap2010:WorkflowViewState.IdRef="Sequence_49">
+                                                <Sequence.Variables>
+                                                  <Variable x:TypeArguments="x:String" Name="str_DRLRequestID" />
+                                                </Sequence.Variables>
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                                <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="433.6,186.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][d(ctrl)d(shift)]i[u(shift)u(ctrl)][u(hk)]" Version="V3" />
+                                                <ui:LogMessage DisplayName="Log Message - Network panel" sap:VirtualizedContainerService.HintSize="433.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_18" Message="[&quot;Nevigate to Network panel&quot;]" />
+                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'page tab Network'" sap:VirtualizedContainerService.HintSize="433.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_23" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
+                                                  <uix:NClick.Target>
+                                                    <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/admin/clients/2024" CVScreenId="706bfa7a-84cf-4fa2-a92e-b8646bab4fb1" CvTextArea="1575, 235, 61, 15" CvTextArgument="Network" CvType="Text" DesignTimeRectangle="1563, 225, 85, 35" DesignTimeScaleFactor="1.25" ElementType="TabPage" FullSelectorArgument="&lt;ctrl name='DevTools' role='document' /&gt;&lt;ctrl name='Main toolbar' role='grouping' /&gt;&lt;ctrl name='Panels' role='page tab list' /&gt;&lt;ctrl name='Network' role='page tab' /&gt;" FuzzySelectorArgument="&lt;ctrl name='DevTools' role='document' /&gt;&lt;ctrl name='Main toolbar' role='grouping' /&gt;&lt;ctrl name='Panels' role='page tab list' /&gt;&lt;ctrl name='Network' role='page tab' automationid='' /&gt;" Guid="2e8f5867-f14a-4deb-bb6e-a6c2fe52858d" InformativeScreenshot="422169959513185f1b76e618162f11a7.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_*' title='TaxCaddy CPA - Google Chrome' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                                                  </uix:NClick.Target>
+                                                </uix:NClick>
+                                                <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="433.6,186.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][d(ctrl)]f[u(ctrl)][u(hk)]" Version="V3" />
+                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'editable text Find'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="433.6,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_12" InteractionMode="HardwareEvents" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Text="[in_Config(&quot;DRL_RequestID&quot;).ToString + &quot;[k(Enter)]&quot;]" Version="V3">
+                                                  <uix:NTypeInto.Target>
+                                                    <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/admin/clients/2024" CVScreenId="e035ed6f-636c-4d2a-aba1-0202f160c126" CvElementArea="1240, 294, 265, 30" CvType="InputBox" DesignTimeRectangle="1276, 297, 157, 23" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='DevTools' role='document' /&gt;&lt;ctrl name='Network panel' role='property page' /&gt;&lt;ctrl name='network' role='grouping' /&gt;&lt;ctrl name='Search panel' role='property page' /&gt;&lt;ctrl name='Find' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='DevTools' role='document' /&gt;&lt;ctrl name='Network panel' role='property page' /&gt;&lt;ctrl name='network' role='grouping' /&gt;&lt;ctrl name='Search panel' role='property page' /&gt;&lt;ctrl name='Find' role='editable text' automationid='' /&gt;" Guid="e2109d7e-45ab-4611-bb4f-04052f147638" InformativeScreenshot="90ad568cd472d568b2c1d653352499e2.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_*' title='TaxCaddy CPA - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                                                      <uix:TargetAnchorable.Anchors>
+                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                                          <uix:Target CVScreenId="e035ed6f-636c-4d2a-aba1-0202f160c126" CvTextArea="1247, 269, 46, 15" CvTextArgument="Search" CvType="Text" DesignTimeRectangle="1236, 258, 72, 36" ElementType="TabPage" FullSelectorArgument="&lt;ctrl name='DevTools' role='document' /&gt;&lt;ctrl name='Network panel' role='property page' /&gt;&lt;ctrl name='network' role='grouping' /&gt;&lt;ctrl name='Search' role='page tab' /&gt;" FuzzySelectorArgument="&lt;ctrl name='DevTools' role='document' /&gt;&lt;ctrl name='Network panel' role='property page' /&gt;&lt;ctrl name='network' role='grouping' /&gt;&lt;ctrl name='Search' role='page tab' automationid='' /&gt;" Guid="6656afd4-6799-4ebc-8b39-403dbf28d832" SearchSteps="Selector, FuzzySelector" />
+                                                        </scg:List>
+                                                      </uix:TargetAnchorable.Anchors>
+                                                    </uix:TargetAnchorable>
+                                                  </uix:NTypeInto.Target>
+                                                </uix:NTypeInto>
+                                                <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DisplayName="Refresh DRL " sap:VirtualizedContainerService.HintSize="433.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_24" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
+                                                  <uix:NClick.Target>
+                                                    <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/admin/clients/2023" CVScreenId="f88bdc6b-ef42-4d29-9ed0-a5d0af78d114" CvElementArea="165, 545, 29, 29" CvType="Icon" DesignTimeRectangle="163, 543, 34, 34" DesignTimeScaleFactor="1.25" ElementType="Icon" FullSelectorArgument="&lt;webctrl class='MuiSvgIcon-root' parentid='administrativeModules' tag='svg' /&gt;" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl class='MuiSvgIcon-root' parentid='administrativeModules' tag='svg' type='' aaname='' /&gt;" Guid="b5240b10-83d5-4f0f-bdea-3d350bfc71a8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJvSURBVFhH7ZbLa1NBFIf9X3QhCPWxUauCiEW3LtStq2rBPha+qLWC0ocUKaUVqSDGpo25aRNjGlCbGlJr0tgs2lqJWlF8YJPm9S8c7xk6483k5CSRCBXu4lvkzm9OPu6dOTPbCoUCbAVsER1bRMcW0fl/RVIbWXCF30Hr/Vk40e2DhtZxaGgbh5M3fdA++gqMyCpsZHMl8wam4iXPrNQk4o8m4dAVA7Y3O1iOdk7CTGJNzRv0LYrn1lo6VYv0GQtFf7a7bQLO9Afh2qM5wem+afF2rJkh/yKMBBLqN1VXUpVIrzumih245AZP5D2ZQ5yzK7C3fULlrVB5SUWRQOyDKtTU5YW1b+tkzsrSpx/ijVklECorYUV+pjKw33wDWKTxshs+f0+ROZ273rclEgiVlbAiD18sqSK++SSZ0Rny/1kTOlRewoqcG3wuCuC6oMZ1+j3FC1qHmiNhRRo3t2rHgzA5biUY/yh2Dgc1T8KK7LroFCK3XFFyvJ6wIrIvdDvnyfF6woocuz4lRJqHX5Lj9YQVuTASEiL7OlyQz9MZDjyXcAEjuIaojIQVGQutCBHEYLppOQYm42o+NkYqI2FF1tNZ0ciwUC0NDcHuKtfYcbMj5/J5MidhRZDpv2jx0dWv4nPKecEF/rMgFUWQXqP40CvXZdOZnPgcO1vGVL7nSYzM6lQlgtw2e4ksjuwxT9izd4LQ6ZiDrsevxc46ctWjxnecd8DwswRZi6JqEeTpmyQc3DwEOQ6bQpHlL2SNctQkgvxKZ8RuarkXgqYbXrEg8f5xqidgXhXD4JhZJq+KlahZ5F9hi+jYIjpbRKQAvwFq0iKXa/au7QAAAABJRU5ErkJggg==" InformativeScreenshot="adbed81e11dff613a8de2dc4b729c15e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*Administrative - TaxCaddy CPA' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                                                  </uix:NClick.Target>
+                                                </uix:NClick>
+                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'editable text Find'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="433.6,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_13" InteractionMode="HardwareEvents" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Text="[in_Config(&quot;DRL_RequestID&quot;).ToString + &quot;[k(Enter)]&quot;]" Version="V3">
+                                                  <uix:NTypeInto.Target>
+                                                    <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/admin/clients/2024" CVScreenId="e035ed6f-636c-4d2a-aba1-0202f160c126" CvElementArea="1240, 294, 265, 30" CvType="InputBox" DesignTimeRectangle="1276, 297, 157, 23" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='DevTools' role='document' /&gt;&lt;ctrl name='Network panel' role='property page' /&gt;&lt;ctrl name='network' role='grouping' /&gt;&lt;ctrl name='Search panel' role='property page' /&gt;&lt;ctrl name='Find' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='DevTools' role='document' /&gt;&lt;ctrl name='Network panel' role='property page' /&gt;&lt;ctrl name='network' role='grouping' /&gt;&lt;ctrl name='Search panel' role='property page' /&gt;&lt;ctrl name='Find' role='editable text' automationid='' /&gt;" Guid="e2109d7e-45ab-4611-bb4f-04052f147638" InformativeScreenshot="90ad568cd472d568b2c1d653352499e2.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_*' title='TaxCaddy CPA - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                                                      <uix:TargetAnchorable.Anchors>
+                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                          <uix:Target CVScreenId="e035ed6f-636c-4d2a-aba1-0202f160c126" CvTextArea="1247, 269, 46, 15" CvTextArgument="Search" CvType="Text" DesignTimeRectangle="1236, 258, 72, 36" ElementType="TabPage" FullSelectorArgument="&lt;ctrl name='DevTools' role='document' /&gt;&lt;ctrl name='Network panel' role='property page' /&gt;&lt;ctrl name='network' role='grouping' /&gt;&lt;ctrl name='Search' role='page tab' /&gt;" FuzzySelectorArgument="&lt;ctrl name='DevTools' role='document' /&gt;&lt;ctrl name='Network panel' role='property page' /&gt;&lt;ctrl name='network' role='grouping' /&gt;&lt;ctrl name='Search' role='page tab' automationid='' /&gt;" Guid="6656afd4-6799-4ebc-8b39-403dbf28d832" SearchSteps="Selector, FuzzySelector" />
+                                                        </scg:List>
+                                                      </uix:TargetAnchorable.Anchors>
+                                                    </uix:TargetAnchorable>
+                                                  </uix:NTypeInto.Target>
+                                                </uix:NTypeInto>
+                                                <uix:NGetText DisplayName="Get Text '&quot;drlRequestId&quot;" sap:VirtualizedContainerService.HintSize="433.6,189.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" TextString="[str_DRLRequestID]" Version="V3">
+                                                  <uix:NGetText.Target>
+                                                    <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/admin/clients/2024" CVScreenId="185880e0-1dd1-4603-9a92-0f67324e5318" CvTextArea="1281, 360, 163, 17" CvType="AnyWordGroup" DesignTimeRectangle="1282, 358, 163, 21" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;ctrl name='DevTools' role='document' /&gt;&lt;ctrl name='Network panel' role='property page' /&gt;&lt;ctrl name='network' role='grouping' /&gt;&lt;ctrl name='Search panel' role='property page' /&gt;&lt;ctrl text='&amp;quot;drlRequestId&amp;quot;: *,' /&gt;" FuzzySelectorArgument="&lt;ctrl name='DevTools' role='document' /&gt;&lt;ctrl name='Network panel' role='property page' /&gt;&lt;ctrl name='network' role='grouping' /&gt;&lt;ctrl name='Search panel' role='property page' /&gt;&lt;ctrl role='grouping' automationid='' /&gt;" Guid="5ba3843b-efbb-456c-ac00-09cd08f41210" ImageBase64="" InformativeScreenshot="a96df059e08f431cec5309e3c0c3cce5.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_*' title='TaxCaddy CPA - Google Chrome' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                                                  </uix:NGetText.Target>
+                                                </uix:NGetText>
+                                                <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_7">
+                                                  <Assign.To>
+                                                    <OutArgument x:TypeArguments="x:String">[str_DRLRequestID]</OutArgument>
+                                                  </Assign.To>
+                                                  <Assign.Value>
+                                                    <InArgument x:TypeArguments="x:String">[str_DRLRequestID.Split(":"c)(1).Trim().Replace(",", "")]</InArgument>
+                                                  </Assign.Value>
+                                                </Assign>
+                                                <ui:LogMessage DisplayName="Log message for DRL Request ID" sap:VirtualizedContainerService.HintSize="433.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_17" Level="Info" Message="[&quot;The DRL Request ID is - &quot;+str_DRLRequestID]" />
+                                                <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="433.6,177.6" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" Shortcuts="[d(hk)][d(ctrl)d(shift)]i[u(shift)u(ctrl)][u(hk)]" Version="V3" />
+                                              </Sequence>
+                                            </If.Else>
+                                          </If>
                                         </Sequence>
                                       </If.Then>
                                       <If.Else>
-                                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="592,646.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,136.8" sap2010:WorkflowViewState.IdRef="Sequence_6">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <If Condition="[statusDRLCreation.Trim.ToUpper.Equals(&quot;IN ERROR&quot;)]" sap:VirtualizedContainerService.HintSize="529.6,557.6" sap2010:WorkflowViewState.IdRef="If_5">
+                                          <If Condition="[statusDRLCreation.Trim.ToUpper.Equals(&quot;IN ERROR&quot;)]" sap:VirtualizedContainerService.HintSize="353.6,48" sap2010:WorkflowViewState.IdRef="If_5">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
@@ -948,30 +1030,30 @@
                               </ui:RetryScope.Condition>
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </ui:RetryScope>
-                            <If Condition="[errorDRL]" DisplayName="Check DRL error" sap:VirtualizedContainerService.HintSize="353.6,56.8" sap2010:WorkflowViewState.IdRef="If_6">
+                            <If Condition="[errorDRL]" DisplayName="Check DRL error" sap:VirtualizedContainerService.HintSize="633.6,477.6" sap2010:WorkflowViewState.IdRef="If_6">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                               <If.Then>
-                                <Sequence sap:VirtualizedContainerService.HintSize="377.6,180" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,202.4" sap2010:WorkflowViewState.IdRef="Sequence_19">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <Throw Exception="[new Exception(&quot;DRL Error&quot;)]" sap:VirtualizedContainerService.HintSize="334.4,90.4" sap2010:WorkflowViewState.IdRef="Throw_5" />
+                                  <Throw Exception="[new Exception(&quot;DRL Error&quot;)]" sap:VirtualizedContainerService.HintSize="353.6,113.6" sap2010:WorkflowViewState.IdRef="Throw_5" />
                                 </Sequence>
                               </If.Then>
                               <If.Else>
-                                <Sequence sap:VirtualizedContainerService.HintSize="300,82.4" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,104.8" sap2010:WorkflowViewState.IdRef="Sequence_20">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -980,7 +1062,7 @@
                                 </Sequence>
                               </If.Else>
                             </If>
-                            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DelayBefore="2" DisplayName="Click 'Select client(s)'" sap:VirtualizedContainerService.HintSize="353.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DelayBefore="2" DisplayName="Click 'Select client(s)'" sap:VirtualizedContainerService.HintSize="633.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
                               <uix:NClick.Target>
                                 <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/admin/clients/2023" DesignTimeRectangle="473, 548, 25, 25" DesignTimeScaleFactor="1.25" ElementType="Icon" FullSelectorArgument="&lt;webctrl class='MuiSvgIcon-root' css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;span&amp;gt;span&amp;gt;svg' parentid='administrativeModules' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl class='MuiSvgIcon-root' type='' parentid='administrativeModules' tag='svg' aaname='' /&gt;" Guid="c480c314-8fcf-4bd1-8b18-25c8f84b8fc8" InformativeScreenshot="5ed0f166a147f8f639a08ea4bf7a3732.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*Administrative - TaxCaddy CPA' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
                                   <uix:TargetAnchorable.Anchors>
@@ -991,12 +1073,12 @@
                                 </uix:TargetAnchorable>
                               </uix:NClick.Target>
                             </uix:NClick>
-                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Send DRL'" sap:VirtualizedContainerService.HintSize="353.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Send DRL'" sap:VirtualizedContainerService.HintSize="633.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
                               <uix:NClick.Target>
                                 <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/admin/clients/2023" CVScreenId="7c061aa0-2a6a-4a01-afd2-c40d883ae108" CvTextArea="658, 555, 82, 17" CvTextArgument="Send DRL" CvType="Text" DesignTimeRectangle="660, 554, 388, 21" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Send DRL' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Send DRL' tag='BUTTON' type='button' class='_3oeLH' check:innerText='Send DRL' /&gt;" Guid="e3b4b088-42f5-4206-a9b3-5fab6b6ea472" InformativeScreenshot="b2fbdc5035e87bb129549a290b790743.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*Administrative - TaxCaddy CPA' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
                               </uix:NClick.Target>
                             </uix:NClick>
-                            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="1" DisplayName="Select DRL Entry" sap:VirtualizedContainerService.HintSize="353.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="1" DisplayName="Select DRL Entry" sap:VirtualizedContainerService.HintSize="633.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
                               <uix:NClick.Target>
                                 <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/admin/clients/2023" CVScreenId="9605a4b1-6cdc-4154-9243-185cc752bafc" CvElementArea="133, 676, 29, 29" CvType="CheckBox" DesignTimeRectangle="132, 674, 33, 33" DesignTimeScaleFactor="1.25" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='svg' class='MuiSvgIcon-root MuiSvgIcon-fontSizeLarge' aaname='' /&gt;" Guid="b896f1d6-fa1a-47a0-bb6a-6e52c4f2415e" InformativeScreenshot="ab1b8a68bd5f0154624d1e3d8e8161f6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*Administrative - TaxCaddy CPA' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
                                   <uix:TargetAnchorable.Anchors>
@@ -1007,7 +1089,7 @@
                                 </uix:TargetAnchorable>
                               </uix:NClick.Target>
                             </uix:NClick>
-                            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="5" DisplayName="Click 'SEND DRL'" sap:VirtualizedContainerService.HintSize="353.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="5" DisplayName="Click 'SEND DRL'" sap:VirtualizedContainerService.HintSize="633.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
                               <uix:NClick.Target>
                                 <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/admin/clients/2023" CVScreenId="98779fed-1d89-455d-a820-baf5e67fa007" CvElementArea="223, 965, 231, 50" CvTextArea="316, 983, 74, 15" CvTextArgument="SEND DRL" CvType="Button" DesignTimeRectangle="319, 977, 71, 26" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='SEND DRL' parentid='administrativeModules' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='SEND DRL' parentid='administrativeModules' tag='SPAN' type='' class='' check:innerText='SEND DRL' /&gt;" Guid="9ec322a7-cdef-4bf4-9321-a225213a94c7" InformativeScreenshot="211df5d0bb4c79c0a0e02a900e9a6c02.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*Administrative - TaxCaddy CPA' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
                                   <uix:TargetAnchorable.Anchors>
@@ -1018,8 +1100,8 @@
                                 </uix:TargetAnchorable>
                               </uix:NClick.Target>
                             </uix:NClick>
-                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;DRL Request Sent&quot;]" />
-                            <ui:RetryScope DisplayName="Refresh DRL Status Sent (till SENT)" sap:VirtualizedContainerService.HintSize="353.6,49.6" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="5" RetryInterval="00:01:00">
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="633.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;DRL Request Sent&quot;]" />
+                            <ui:RetryScope DisplayName="Refresh DRL Status Sent (till SENT)" sap:VirtualizedContainerService.HintSize="633.6,49.6" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="5" RetryInterval="00:01:00">
                               <ui:RetryScope.ActivityBody>
                                 <ActivityAction>
                                   <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="512,1037.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
@@ -1104,7 +1186,7 @@
                     </uix:NApplicationCard>
                   </TryCatch.Try>
                   <TryCatch.Catches>
-                    <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="452.8,23.2" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                    <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="732.8,23.2" sap2010:WorkflowViewState.IdRef="Catch`1_1">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1250,7 +1332,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:RetryScope>
-          <If Condition="[in_TransactionItem.SpecificContent(&quot;TaxSoftware&quot;).ToString=&quot;UltraTax CS&quot; Or in_TransactionItem.SpecificContent(&quot;TaxSoftware&quot;).ToString=&quot;Lacerte&quot;]" DisplayName="If - Only for UltraTax CS And Lacerte tax software" sap:VirtualizedContainerService.HintSize="545.6,991.2" sap2010:WorkflowViewState.IdRef="If_7">
+          <If Condition="[in_TransactionItem.SpecificContent(&quot;TaxSoftware&quot;).ToString=&quot;UltraTax CS&quot; Or in_TransactionItem.SpecificContent(&quot;TaxSoftware&quot;).ToString=&quot;Lacerte&quot;]" DisplayName="If - Only for UltraTax CS And Lacerte tax software" sap:VirtualizedContainerService.HintSize="808,951.2" sap2010:WorkflowViewState.IdRef="If_7">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1258,13 +1340,13 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <If.Then>
-              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,716" sap2010:WorkflowViewState.IdRef="Sequence_21">
+              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,676" sap2010:WorkflowViewState.IdRef="Sequence_21">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <uix:NApplicationCard AttachMode="ByInstance" ContinueOnError="True" DisplayName="Use Application: TaxCaddy Tax File Uploader" sap:VirtualizedContainerService.HintSize="449.6,627.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="4f1880c8-f7b6-4fdb-a2a8-5be19a4a0691" Version="V2">
+                <uix:NApplicationCard AttachMode="ByInstance" ContinueOnError="True" DisplayName="Use Application: TaxCaddy Tax File Uploader" sap:VirtualizedContainerService.HintSize="449.6,587.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="4f1880c8-f7b6-4fdb-a2a8-5be19a4a0691" Version="V2">
                   <uix:NApplicationCard.Body>
                     <ActivityAction x:TypeArguments="x:Object">
                       <ActivityAction.Argument>
@@ -1312,11 +1394,11 @@
               </Sequence>
             </If.Else>
           </If>
-          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="545.6,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;DRL Integration of client: &quot;+in_ClientID+&quot; Successful&quot;]" />
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="808,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;DRL Integration of client: &quot;+in_ClientID+&quot; Successful&quot;]" />
         </Sequence>
       </TryCatch.Try>
       <TryCatch.Catches>
-        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="611.2,23.2" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="873.6,23.2" sap2010:WorkflowViewState.IdRef="Catch`1_2">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
