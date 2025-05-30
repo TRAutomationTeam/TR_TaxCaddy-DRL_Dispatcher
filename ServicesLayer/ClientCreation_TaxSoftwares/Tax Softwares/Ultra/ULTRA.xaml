@@ -160,7 +160,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Flowchart DisplayName="ULTRA" sap:VirtualizedContainerService.HintSize="1070.4,563.2" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="ULTRA" sap:VirtualizedContainerService.HintSize="1468.8,563.2" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_ClientDetails" />
       <Variable x:TypeArguments="x:String" Name="LastClientIdCreated" />
@@ -458,7 +458,7 @@
                                   <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <TryCatch DisplayName="Try Catch - Create Client ID " sap:VirtualizedContainerService.HintSize="1177.6,7955.2" sap2010:WorkflowViewState.IdRef="TryCatch_13">
+                              <TryCatch DisplayName="Try Catch - Create Client ID " sap:VirtualizedContainerService.HintSize="1177.6,7415.2" sap2010:WorkflowViewState.IdRef="TryCatch_13">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -466,13 +466,13 @@
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
                                 <TryCatch.Try>
-                                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: 2022 UltraTax CS " sap:VirtualizedContainerService.HintSize="1140.8,7195.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_40" OpenMode="Never" ScopeGuid="d2c22cb9-ed04-48db-ab9e-2631979f2f8a" Version="V2">
+                                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: 2022 UltraTax CS " sap:VirtualizedContainerService.HintSize="1140.8,6655.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_40" OpenMode="Never" ScopeGuid="d2c22cb9-ed04-48db-ab9e-2631979f2f8a" Version="V2">
                                     <uix:NApplicationCard.Body>
                                       <ActivityAction x:TypeArguments="x:Object">
                                         <ActivityAction.Argument>
                                           <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                         </ActivityAction.Argument>
-                                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1107.2,6904" sap2010:WorkflowViewState.IdRef="Sequence_414">
+                                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1107.2,6364" sap2010:WorkflowViewState.IdRef="Sequence_414">
                                           <Sequence.Variables>
                                             <Variable x:TypeArguments="x:Decimal" Name="OutNumber" />
                                             <Variable x:TypeArguments="x:Boolean" Name="Bool_ElementExits" />
@@ -1042,7 +1042,7 @@
                                               <InArgument x:TypeArguments="x:String">[str_CloneClientID]</InArgument>
                                             </Assign.Value>
                                           </Assign>
-                                          <uix:NCheckState DisplayName="Check App State 'Restrict Access'" sap:VirtualizedContainerService.HintSize="1044.8,563.2" sap2010:WorkflowViewState.IdRef="NCheckState_34" ScopeIdentifier="d2c22cb9-ed04-48db-ab9e-2631979f2f8a" Timeout="10" Version="V3">
+                                          <uix:NCheckState DisplayName="Check App State 'Restrict Access'" sap:VirtualizedContainerService.HintSize="1044.8,523.2" sap2010:WorkflowViewState.IdRef="NCheckState_34" ScopeIdentifier="d2c22cb9-ed04-48db-ab9e-2631979f2f8a" Timeout="10" Version="V3">
                                             <uix:NCheckState.IfExists>
                                               <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,272.8" sap2010:WorkflowViewState.IdRef="Sequence_435">
                                                 <sap:WorkflowViewStateService.ViewState>
@@ -1322,29 +1322,53 @@
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                           </uix:NCheckState>
-                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'File'" sap:VirtualizedContainerService.HintSize="1044.8,189.6" sap2010:WorkflowViewState.IdRef="NClick_146" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d2c22cb9-ed04-48db-ab9e-2631979f2f8a" Version="V3">
-                                            <uix:NClick.Target>
-                                              <uix:TargetAnchorable CvTextArea="46, 42, 25, 15" CvTextArgument="File" CvType="Text" DesignTimeRectangle="38, 38, 40, 24" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;ctrl automationid='MenuBar' name='Application' role='menu bar' /&gt;&lt;ctrl name='File' role='menu item' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MenuBar' name='Application' role='menu bar' /&gt;&lt;ctrl name='File' role='menu item' automationid='' check:text='File' /&gt;" Guid="49474d76-b00d-4b7c-b378-49105e5fa3da" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAcCAYAAAAa/l2sAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAALrSURBVFhH7ZdfSFNRHMfPW4EvPRXrKQislyAIinoUXMtcL70UxHTak6iFkeAqHBa1aqsVFbnGsqLN4cxU/Lss/82pS938E5pozlpO11V3t7Wpy2937b4YMjfabAM/8Hu45/I758Ph9zvnXoIEY0s41pB5Jw3v0hL7GP9slUSsIXM/KDhpF/x+PzsU35B3rV0wD32C2+1mh+IbYjQNYGBwBDRNs0PxDSmvbcWAZThMYRu+9LyGND0dp5lIZ+NMjggl9VNwTtVDJbqJh6VN6KYW4aY6oBJcQ3nDCEajtB/kWUVjBMKfYamRIDtpH05mXcYFkRhisRiSx2VQm2bhmTWhuUyL6vo+RnAWCzYtCndzcb20A0aKneIfIQpdHfrMQxEIy5Gzk4+7BgcmQpZ9jISfVLxBt8kcBeFVJnxMGSyAXvTA619HeNWPX0s0qJkZzNhssNnm4KDcTFYwOxzI00pdlIQDy3YyNZuPW1fVaLSvI+yxguqVQXAgGfs5HHA4x5EmUDFZwexwIIpqbYTCN5C5bRcOHuMihRdsOmFBCVQWZneXW/CInwFRnhLV3/8WZhq2SwN52jkUPdDiha4WtQoZFPekyG+0Y8Eb3j1AdE0NEQqzTZddiItXgk0nV2qgn/TBuxJC+JsFvWoRTiUlg8c0bH5RMYpzz0J4PhOHJP2w0+F9z/y5OKJXEiGEx43oKM3D0e17cSSVBy6fD34gsi4h47kFlHs5OM0GEP0Hw+YIT/TAoCzBCU4uVOMO2PzhttlaSPP7TRJ2jMH8VoyMHXvAu9MDo9UTTIsQot+skmCOL6e1De33heAdTgU3hRe8KYUFEKgiKImX6gq0dxrhcrnYoVBQsI91o06qgWHag/k1a6wwMYleTRVaGvox6nLDSw9DL3uFto9WfP3JvF6eh2e6FRqpBLeZZg00rFiuhEw/CdobyN8YUllVA7NlED5fuCfh/2XrjyPWJJ5woHYTKYjT6UQiBbHb7UicsOM3jPQXucwYNlAAAAAASUVORK5CYII=" InformativeScreenshot="b355cdf62a3c3338828f40d20bde52a5.png" ScopeSelectorArgument="&lt;wnd app='utw*.exe' cls='CSIUTW*' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Visible" WaitForReadyArgument="Complete" />
-                                            </uix:NClick.Target>
-                                            <sap:WorkflowViewStateService.ViewState>
-                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                              </scg:Dictionary>
-                                            </sap:WorkflowViewStateService.ViewState>
-                                          </uix:NClick>
-                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Exit'" sap:VirtualizedContainerService.HintSize="1044.8,189.6" sap2010:WorkflowViewState.IdRef="NClick_147" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d2c22cb9-ed04-48db-ab9e-2631979f2f8a" Version="V3">
-                                            <uix:NClick.Target>
-                                              <uix:TargetAnchorable CVScreenId="3cb53f3e-e3ef-4ffa-a50d-dcf646af6163" CvTextArea="31, 612, 26, 16" CvTextArgument="Exit" CvType="Text" DesignTimeRectangle="3, 609, 364, 25" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;ctrl name='File' role='popup menu' /&gt;&lt;ctrl automationid='57665' /&gt;" FuzzySelectorArgument="&lt;ctrl name='File' role='popup menu' /&gt;&lt;ctrl automationid='57665' role='menu item' check:text='Exit' /&gt;" Guid="a570c93e-0722-457d-bbfd-e45956faad1a" InformativeScreenshot="eb88401ff8baa32118ede5be4b1cec8d.png" ScopeSelectorArgument="&lt;wnd app='utw*.exe' cls='#32768' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V4" Visibility="Interactive" />
-                                            </uix:NClick.Target>
+                                          <ui:CommentOut DisplayName="Comment Out- Exit Ultra tax software" sap:VirtualizedContainerService.HintSize="1044.8,48" sap2010:WorkflowViewState.IdRef="CommentOut_54">
+                                            <ui:CommentOut.Body>
+                                              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,250.4" sap2010:WorkflowViewState.IdRef="Sequence_446">
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'File'" sap:VirtualizedContainerService.HintSize="353.6,56.8" sap2010:WorkflowViewState.IdRef="NClick_146" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d2c22cb9-ed04-48db-ab9e-2631979f2f8a" Version="V3">
+                                                  <uix:NClick.Target>
+                                                    <uix:TargetAnchorable CvTextArea="46, 42, 25, 15" CvTextArgument="File" CvType="Text" DesignTimeRectangle="38, 38, 40, 24" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;ctrl automationid='MenuBar' name='Application' role='menu bar' /&gt;&lt;ctrl name='File' role='menu item' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MenuBar' name='Application' role='menu bar' /&gt;&lt;ctrl name='File' role='menu item' automationid='' check:text='File' /&gt;" Guid="49474d76-b00d-4b7c-b378-49105e5fa3da" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAcCAYAAAAa/l2sAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAALrSURBVFhH7ZdfSFNRHMfPW4EvPRXrKQislyAIinoUXMtcL70UxHTak6iFkeAqHBa1aqsVFbnGsqLN4cxU/Lss/82pS938E5pozlpO11V3t7Wpy2937b4YMjfabAM/8Hu45/I758Ph9zvnXoIEY0s41pB5Jw3v0hL7GP9slUSsIXM/KDhpF/x+PzsU35B3rV0wD32C2+1mh+IbYjQNYGBwBDRNs0PxDSmvbcWAZThMYRu+9LyGND0dp5lIZ+NMjggl9VNwTtVDJbqJh6VN6KYW4aY6oBJcQ3nDCEajtB/kWUVjBMKfYamRIDtpH05mXcYFkRhisRiSx2VQm2bhmTWhuUyL6vo+RnAWCzYtCndzcb20A0aKneIfIQpdHfrMQxEIy5Gzk4+7BgcmQpZ9jISfVLxBt8kcBeFVJnxMGSyAXvTA619HeNWPX0s0qJkZzNhssNnm4KDcTFYwOxzI00pdlIQDy3YyNZuPW1fVaLSvI+yxguqVQXAgGfs5HHA4x5EmUDFZwexwIIpqbYTCN5C5bRcOHuMihRdsOmFBCVQWZneXW/CInwFRnhLV3/8WZhq2SwN52jkUPdDiha4WtQoZFPekyG+0Y8Eb3j1AdE0NEQqzTZddiItXgk0nV2qgn/TBuxJC+JsFvWoRTiUlg8c0bH5RMYpzz0J4PhOHJP2w0+F9z/y5OKJXEiGEx43oKM3D0e17cSSVBy6fD34gsi4h47kFlHs5OM0GEP0Hw+YIT/TAoCzBCU4uVOMO2PzhttlaSPP7TRJ2jMH8VoyMHXvAu9MDo9UTTIsQot+skmCOL6e1De33heAdTgU3hRe8KYUFEKgiKImX6gq0dxrhcrnYoVBQsI91o06qgWHag/k1a6wwMYleTRVaGvox6nLDSw9DL3uFto9WfP3JvF6eh2e6FRqpBLeZZg00rFiuhEw/CdobyN8YUllVA7NlED5fuCfh/2XrjyPWJJ5woHYTKYjT6UQiBbHb7UicsOM3jPQXucwYNlAAAAAASUVORK5CYII=" InformativeScreenshot="b355cdf62a3c3338828f40d20bde52a5.png" ScopeSelectorArgument="&lt;wnd app='utw*.exe' cls='CSIUTW*' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Visible" WaitForReadyArgument="Complete" />
+                                                  </uix:NClick.Target>
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                </uix:NClick>
+                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Exit'" sap:VirtualizedContainerService.HintSize="353.6,56.8" sap2010:WorkflowViewState.IdRef="NClick_147" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d2c22cb9-ed04-48db-ab9e-2631979f2f8a" Version="V3">
+                                                  <uix:NClick.Target>
+                                                    <uix:TargetAnchorable CVScreenId="3cb53f3e-e3ef-4ffa-a50d-dcf646af6163" CvTextArea="31, 612, 26, 16" CvTextArgument="Exit" CvType="Text" DesignTimeRectangle="3, 609, 364, 25" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;ctrl name='File' role='popup menu' /&gt;&lt;ctrl automationid='57665' /&gt;" FuzzySelectorArgument="&lt;ctrl name='File' role='popup menu' /&gt;&lt;ctrl automationid='57665' role='menu item' check:text='Exit' /&gt;" Guid="a570c93e-0722-457d-bbfd-e45956faad1a" InformativeScreenshot="eb88401ff8baa32118ede5be4b1cec8d.png" ScopeSelectorArgument="&lt;wnd app='utw*.exe' cls='#32768' idx='*' /&gt;" SearchSteps="Selector, CV" Version="V4" Visibility="Interactive" />
+                                                  </uix:NClick.Target>
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                </uix:NClick>
+                                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,48" sap2010:WorkflowViewState.IdRef="LogMessage_100" Level="Info" Message="[&quot;Closing the Ultra tax software.&quot;]">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                </ui:LogMessage>
+                                              </Sequence>
+                                            </ui:CommentOut.Body>
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                          </uix:NClick>
-                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1044.8,168.8" sap2010:WorkflowViewState.IdRef="LogMessage_100" Level="Info" Message="[&quot;Closing the Ultra tax software.&quot;]" />
+                                          </ui:CommentOut>
                                         </Sequence>
                                       </ActivityAction>
                                     </uix:NApplicationCard.Body>

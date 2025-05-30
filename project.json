@@ -7,10 +7,11 @@
     "LacerteLogin": "[1.0.4]",
     "RunModeLibrary": "[1.0.2]",
     "UiPath.Credentials.Activities": "[2.0.0]",
-    "UiPath.Excel.Activities": "[2.22.3]",
-    "UiPath.System.Activities": "[24.10.5]",
-    "UiPath.Testing.Activities": "[23.4.1]",
-    "UiPath.UIAutomation.Activities": "[24.10.0]"
+    "UiPath.Excel.Activities": "[2.24.3]",
+    "UiPath.IntegrationService.Activities": "[1.14.0]",
+    "UiPath.System.Activities": "[24.10.7]",
+    "UiPath.Testing.Activities": "[24.10.3]",
+    "UiPath.UIAutomation.Activities": "[24.10.3]"
   },
   "webServices": [],
   "entitiesStores": [],
