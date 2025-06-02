@@ -8,7 +8,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>2005.6,13559.2</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>2005.6,13578.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Binder_Creation_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="74">
@@ -132,7 +132,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Binder_Creation" sap:VirtualizedContainerService.HintSize="2016,13494.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Binder_Creation" sap:VirtualizedContainerService.HintSize="2016,13513.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Default="Outsource Offshore" Name="ServiceType" />
       <Variable x:TypeArguments="x:String" Name="StrConsent" />
@@ -179,17 +179,17 @@
         <InArgument x:TypeArguments="x:Int32">1</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1953.6,13004" sap2010:WorkflowViewState.IdRef="RetryScope_5" NumberOfRetries="2">
+    <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="1953.6,13023.2" sap2010:WorkflowViewState.IdRef="RetryScope_5" NumberOfRetries="2">
       <ui:RetryScope.ActivityBody>
         <ActivityAction>
-          <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="1912,12804.8" sap2010:WorkflowViewState.IdRef="Sequence_132">
+          <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="1912,12824" sap2010:WorkflowViewState.IdRef="Sequence_132">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1849.6,12716" sap2010:WorkflowViewState.IdRef="TryCatch_6">
+            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1849.6,12735.2" sap2010:WorkflowViewState.IdRef="TryCatch_6">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -197,13 +197,13 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <TryCatch.Try>
-                <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Jack Anderson - TaxCaddy CPA" sap:VirtualizedContainerService.HintSize="1812.8,11884.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="9bb0142b-f59d-4e4d-a2ea-8dec436a60c2" Version="V2" WindowResize="Maximize">
+                <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Jack Anderson - TaxCaddy CPA" sap:VirtualizedContainerService.HintSize="1812.8,11904" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="9bb0142b-f59d-4e4d-a2ea-8dec436a60c2" Version="V2" WindowResize="Maximize">
                   <uix:NApplicationCard.Body>
                     <ActivityAction x:TypeArguments="x:Object">
                       <ActivityAction.Argument>
                         <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                       </ActivityAction.Argument>
-                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1779.2,11668" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1779.2,11687.2" sap2010:WorkflowViewState.IdRef="Sequence_6">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="x:Boolean" Name="bool_SPBinder" />
                           <Variable x:TypeArguments="x:Int32" Name="int_TempCounter1" />
@@ -2003,22 +2003,22 @@
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                         </uix:NApplicationCard>
-                        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Application: Create New Binder" sap:VirtualizedContainerService.HintSize="1716.8,7040" sap2010:WorkflowViewState.IdRef="NApplicationCard_9" OpenMode="Never" ScopeGuid="49174015-08b6-4d75-8b74-2848ae574ae4" Timeout="60" Version="V2">
+                        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Application: Create New Binder" sap:VirtualizedContainerService.HintSize="1716.8,7059.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_9" OpenMode="Never" ScopeGuid="49174015-08b6-4d75-8b74-2848ae574ae4" Timeout="60" Version="V2">
                           <uix:NApplicationCard.Body>
                             <ActivityAction x:TypeArguments="x:Object">
                               <ActivityAction.Argument>
                                 <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                               </ActivityAction.Argument>
-                              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1683.2,6724" sap2010:WorkflowViewState.IdRef="Sequence_126">
+                              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1683.2,6743.2" sap2010:WorkflowViewState.IdRef="Sequence_126">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <uix:NCheckState DisplayName="Check App State 'BASIC INFORMATION'" sap:VirtualizedContainerService.HintSize="1620.8,6633.6" sap2010:WorkflowViewState.IdRef="NCheckState_19" ScopeIdentifier="49174015-08b6-4d75-8b74-2848ae574ae4" Timeout="30" Version="V3">
+                                <uix:NCheckState DisplayName="Check App State 'BASIC INFORMATION'" sap:VirtualizedContainerService.HintSize="1620.8,6652.8" sap2010:WorkflowViewState.IdRef="NCheckState_19" ScopeIdentifier="49174015-08b6-4d75-8b74-2848ae574ae4" Timeout="30" Version="V3">
                                   <uix:NCheckState.IfExists>
-                                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1118.4,6390.4" sap2010:WorkflowViewState.IdRef="Sequence_124">
+                                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1118.4,6409.6" sap2010:WorkflowViewState.IdRef="Sequence_124">
                                       <Sequence.Variables>
                                         <Variable x:TypeArguments="x:Boolean" Name="bool_DocPage" />
                                         <Variable x:TypeArguments="x:String" Name="TaxFilePath" />
@@ -2056,23 +2056,34 @@
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
                                       </WriteLine>
-                                      <uta:VerifyExpressionWithOperator KeepScreenshots="{x:Null}" ScreenshotsPath="{x:Null}" AlternativeVerificationTitle="TC-12 Validation: Fail" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="1056,228" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_7" Operator="Equality" OutputMessageFormat="TC-12 Validation: Pass" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
-                                        <uta:VerifyExpressionWithOperator.FirstExpression>
-                                          <InArgument x:TypeArguments="x:String">[StrConsent]</InArgument>
-                                        </uta:VerifyExpressionWithOperator.FirstExpression>
-                                        <uta:VerifyExpressionWithOperator.Result>
-                                          <OutArgument x:TypeArguments="x:Boolean" />
-                                        </uta:VerifyExpressionWithOperator.Result>
-                                        <uta:VerifyExpressionWithOperator.SecondExpression>
-                                          <InArgument x:TypeArguments="x:String">["Yes"]</InArgument>
-                                        </uta:VerifyExpressionWithOperator.SecondExpression>
-                                        <sap:WorkflowViewStateService.ViewState>
-                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                          </scg:Dictionary>
-                                        </sap:WorkflowViewStateService.ViewState>
-                                      </uta:VerifyExpressionWithOperator>
+                                      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1056,247.2" sap2010:WorkflowViewState.IdRef="CommentOut_46">
+                                        <ui:CommentOut.Body>
+                                          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,136.8" sap2010:WorkflowViewState.IdRef="Sequence_293">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="353.6,48" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_7" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                                              <uta:VerifyExpressionWithOperator.FirstExpression>
+                                                <InArgument x:TypeArguments="x:String">[StrConsent]</InArgument>
+                                              </uta:VerifyExpressionWithOperator.FirstExpression>
+                                              <uta:VerifyExpressionWithOperator.Result>
+                                                <OutArgument x:TypeArguments="x:Boolean" />
+                                              </uta:VerifyExpressionWithOperator.Result>
+                                              <uta:VerifyExpressionWithOperator.SecondExpression>
+                                                <InArgument x:TypeArguments="x:String">["Yes"]</InArgument>
+                                              </uta:VerifyExpressionWithOperator.SecondExpression>
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                            </uta:VerifyExpressionWithOperator>
+                                          </Sequence>
+                                        </ui:CommentOut.Body>
+                                      </ui:CommentOut>
                                       <uta:VerifyControlAttribute AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Validate Office Location" sap:VirtualizedContainerService.HintSize="1056,349.6" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_13" Operator="Equality" OutputArgument="Result" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
                                         <uta:VerifyControlAttribute.ActivityToTest>
                                           <ActivityAction>
@@ -4826,7 +4837,7 @@
                                     </Sequence>
                                   </uix:NCheckState.IfExists>
                                   <uix:NCheckState.IfNotExists>
-                                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,1260" sap2010:WorkflowViewState.IdRef="Sequence_125">
+                                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,1261.6" sap2010:WorkflowViewState.IdRef="Sequence_125">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
