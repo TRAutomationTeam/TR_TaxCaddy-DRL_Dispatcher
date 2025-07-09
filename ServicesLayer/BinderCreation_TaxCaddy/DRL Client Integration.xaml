@@ -9,7 +9,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1092,10457.6</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1112.8,10457.6</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>DRLClientIntegration_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -156,7 +156,7 @@
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                           </ActivityAction.Argument>
-                          <Sequence DisplayName="DRL Creation" sap:VirtualizedContainerService.HintSize="696,6928" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                          <Sequence DisplayName="DRL Creation" sap:VirtualizedContainerService.HintSize="696,7129.6" sap2010:WorkflowViewState.IdRef="Sequence_3">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="x:String" Name="statusDRLSent" />
                             </Sequence.Variables>
@@ -188,9 +188,9 @@
                                 </uix:TargetAnchorable>
                               </uix:NClick.Target>
                             </uix:NClick>
-                            <TryCatch DisplayName="Try Catch - Create Custom DRL VC_09,10" sap:VirtualizedContainerService.HintSize="633.6,1410.4" sap2010:WorkflowViewState.IdRef="TryCatch_5">
+                            <TryCatch DisplayName="Try Catch - Create Custom DRL VC_09,10" sap:VirtualizedContainerService.HintSize="633.6,1402.4" sap2010:WorkflowViewState.IdRef="TryCatch_5">
                               <TryCatch.Try>
-                                <Sequence sap:VirtualizedContainerService.HintSize="416,1147.2" sap2010:WorkflowViewState.IdRef="Sequence_52">
+                                <Sequence sap:VirtualizedContainerService.HintSize="416,1139.2" sap2010:WorkflowViewState.IdRef="Sequence_52">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -235,7 +235,7 @@
                                       </uix:TargetAnchorable>
                                     </uix:NClick.Target>
                                   </uix:NClick>
-                                  <ui:LogMessage DisplayName="Log Message - VC_09" sap:VirtualizedContainerService.HintSize="353.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_21" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;VC_09: The Create Custom DRL option should be visible. : Pass&quot;]">
+                                  <ui:LogMessage DisplayName="Log Message - VC_09" sap:VirtualizedContainerService.HintSize="353.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_21" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;VC_09: The Create Custom DRL option should be visible. : Pass&quot;]">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -243,7 +243,7 @@
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </ui:LogMessage>
-                                  <ui:LogMessage DisplayName="Log Message - VC_10" sap:VirtualizedContainerService.HintSize="353.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_24" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;VC_10: User should redirected to Create DRL page : Pass&quot;]">
+                                  <ui:LogMessage DisplayName="Log Message - VC_10" sap:VirtualizedContainerService.HintSize="353.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_24" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;VC_10: User should redirected to Create DRL page : Pass&quot;]">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -251,7 +251,7 @@
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </ui:LogMessage>
-                                  <ui:LogMessage DisplayName="Log Message - VC_11" sap:VirtualizedContainerService.HintSize="353.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_28" Level="Info" Message="[&quot;VC_11: The DRL is created successfully, and a success message is displayed : Pass&quot;]">
+                                  <ui:LogMessage DisplayName="Log Message - VC_11" sap:VirtualizedContainerService.HintSize="353.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_28" Level="Info" Message="[&quot;VC_11: The DRL is created successfully, and a success message is displayed : Pass&quot;]">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -274,7 +274,7 @@
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </ui:InvokeWorkflowFile>
-                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,49.6" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Created Custom DRL&quot;]">
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,48" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Created Custom DRL&quot;]">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -296,13 +296,13 @@
                                     <ActivityAction.Argument>
                                       <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                     </ActivityAction.Argument>
-                                    <Sequence sap:VirtualizedContainerService.HintSize="416,787.2" sap2010:WorkflowViewState.IdRef="Sequence_53">
+                                    <Sequence sap:VirtualizedContainerService.HintSize="416,698.4" sap2010:WorkflowViewState.IdRef="Sequence_53">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <ui:LogMessage DisplayName="Log Message - VC_09" sap:VirtualizedContainerService.HintSize="353.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_23" Level="Error" Message="[&quot;VC_09: The Create Custom DRL option should be visible. : Fail&quot;]">
+                                      <ui:LogMessage DisplayName="Log Message - VC_09" sap:VirtualizedContainerService.HintSize="353.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_23" Level="Error" Message="[&quot;VC_09: The Create Custom DRL option should be visible. : Fail&quot;]">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -310,7 +310,7 @@
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
                                       </ui:LogMessage>
-                                      <ui:LogMessage DisplayName="Log Message - VC_10" sap:VirtualizedContainerService.HintSize="353.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_26" Level="Error" Message="[&quot;VC_10: Unable to be redirected to the Create DRL page. : Fail&quot;]">
+                                      <ui:LogMessage DisplayName="Log Message - VC_10" sap:VirtualizedContainerService.HintSize="353.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_26" Level="Error" Message="[&quot;VC_10: Unable to be redirected to the Create DRL page. : Fail&quot;]">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -318,7 +318,7 @@
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
                                       </ui:LogMessage>
-                                      <ui:LogMessage DisplayName="Log Message - VC_11" sap:VirtualizedContainerService.HintSize="353.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_27" Level="Error" Message="[&quot;VC_11: The DRL was not created successfully, and a success message was not displayed : Fail&quot;]">
+                                      <ui:LogMessage DisplayName="Log Message - VC_11" sap:VirtualizedContainerService.HintSize="353.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_27" Level="Error" Message="[&quot;VC_11: The DRL was not created successfully, and a success message was not displayed : Fail&quot;]">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -326,7 +326,7 @@
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
                                       </ui:LogMessage>
-                                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="TestSummary_Filtering - Invoke Workflow File (Reporting\TestSummary_Filtering.xaml)" sap:VirtualizedContainerService.HintSize="353.6,81.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Reporting\TestSummary_Filtering.xaml">
+                                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="TestSummary_Filtering - Invoke Workflow File (Reporting\TestSummary_Filtering.xaml)" sap:VirtualizedContainerService.HintSize="353.6,109.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Reporting\TestSummary_Filtering.xaml">
                                         <ui:InvokeWorkflowFile.Arguments>
                                           <InArgument x:TypeArguments="x:Object" x:Key="in_str_Status">["Fail"]</InArgument>
                                           <InArgument x:TypeArguments="x:Object" x:Key="in_str_Comments" />
@@ -352,10 +352,10 @@
                                 <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_Config">[in_Config]</InArgument>
                               </ui:InvokeWorkflowFile.Arguments>
                             </ui:InvokeWorkflowFile>
-                            <ui:RetryScope DisplayName="Private: Refresh DRL Status (till Completed)" sap:VirtualizedContainerService.HintSize="633.6,1350.4" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="5" RetryInterval="00:01:00">
+                            <ui:RetryScope DisplayName="Private: Refresh DRL Status (till Completed)" sap:VirtualizedContainerService.HintSize="633.6,1348.8" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="5" RetryInterval="00:01:00">
                               <ui:RetryScope.ActivityBody>
                                 <ActivityAction>
-                                  <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="592,1142.4" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                                  <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="592,1140.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -387,7 +387,7 @@
                                         <OutArgument x:TypeArguments="x:String">[statusDRLCreation]</OutArgument>
                                       </ui:GetValue.Value>
                                     </ui:GetValue>
-                                    <If Condition="[statusDRLCreation.Trim.ToUpper.Equals(&quot;COMPLETED&quot;)]" DisplayName="status DRL validate" sap:VirtualizedContainerService.HintSize="529.6,724.8" sap2010:WorkflowViewState.IdRef="If_4">
+                                    <If Condition="[statusDRLCreation.Trim.ToUpper.Equals(&quot;COMPLETED&quot;)]" DisplayName="status DRL validate" sap:VirtualizedContainerService.HintSize="529.6,723.2" sap2010:WorkflowViewState.IdRef="If_4">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -395,14 +395,14 @@
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
                                       <If.Then>
-                                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="496,426.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="496,424.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;DRL Status - &quot;+statusDRLCreation]" />
+                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;DRL Status - &quot;+statusDRLCreation]" />
                                           <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_4">
                                             <Assign.To>
                                               <OutArgument x:TypeArguments="x:Boolean">[errorDRL]</OutArgument>
@@ -578,7 +578,7 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </ui:RetryScope>
-                            <If Condition="[errorDRL]" DisplayName="Check DRL error" sap:VirtualizedContainerService.HintSize="633.6,680" sap2010:WorkflowViewState.IdRef="If_6">
+                            <If Condition="[errorDRL]" DisplayName="Check DRL error" sap:VirtualizedContainerService.HintSize="633.6,1328" sap2010:WorkflowViewState.IdRef="If_6">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -586,31 +586,32 @@
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                               <If.Then>
-                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,316" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,727.2" sap2010:WorkflowViewState.IdRef="Sequence_19">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <ui:LogMessage DisplayName="Log Message - VC_12" sap:VirtualizedContainerService.HintSize="353.6,56.8" sap2010:WorkflowViewState.IdRef="LogMessage_39" Level="Error" Message="[&quot;VC_12: The DRL status Not change to Complete : Fail&quot;]">
+                                  <ui:LogMessage DisplayName="Log Message - VC_12" sap:VirtualizedContainerService.HintSize="353.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_39" Level="Error" Message="[&quot;VC_12: The DRL status should eventually change to Complete : Fail&quot;]">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </ui:LogMessage>
-                                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="TestSummary_Filtering - Invoke Workflow File (Reporting\TestSummary_Filtering.xaml)" sap:VirtualizedContainerService.HintSize="353.6,56.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_16" UnSafe="False" WorkflowFileName="Reporting\TestSummary_Filtering.xaml">
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_41" Level="Error" Message="[&quot;DRL Status - &quot;+statusDRLCreation]" />
+                                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="TestSummary_Filtering - Invoke Workflow File (Reporting\TestSummary_Filtering.xaml)" sap:VirtualizedContainerService.HintSize="353.6,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_16" UnSafe="False" WorkflowFileName="Reporting\TestSummary_Filtering.xaml">
                                     <ui:InvokeWorkflowFile.Arguments>
                                       <InArgument x:TypeArguments="x:Object" x:Key="in_str_Status">["Fail"]</InArgument>
-                                      <InArgument x:TypeArguments="x:Object" x:Key="in_str_Comments" />
+                                      <InArgument x:TypeArguments="x:Object" x:Key="in_str_Comments">["The DRL Status is - "+statusDRLCreation]</InArgument>
                                       <InArgument x:TypeArguments="x:String" x:Key="in_str_SubComponent">DRL</InArgument>
                                       <InOutArgument x:TypeArguments="sd:DataTable" x:Key="inOut_dtTestSummaryReport">[in_dictTestSummaryReport("DRL")]</InOutArgument>
                                       <InArgument x:TypeArguments="scg:List(x:String)" x:Key="in_listTestCaseID">[New List(Of String) From {"VC_12"}]</InArgument>
                                     </ui:InvokeWorkflowFile.Arguments>
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
@@ -619,21 +620,21 @@
                                 </Sequence>
                               </If.Then>
                               <If.Else>
-                                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,430.4" sap2010:WorkflowViewState.IdRef="Sequence_20">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <ui:LogMessage DisplayName="Log Message - VC_12" sap:VirtualizedContainerService.HintSize="353.6,56.8" sap2010:WorkflowViewState.IdRef="LogMessage_38" Level="Info" Message="[&quot;VC_12: The DRL status should eventually change to Complete : Pass&quot;]">
+                                  <ui:LogMessage DisplayName="Log Message - VC_12" sap:VirtualizedContainerService.HintSize="353.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_38" Level="Info" Message="[&quot;VC_12: The DRL status should eventually change to Complete : Pass&quot;]">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </ui:LogMessage>
-                                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="TestSummary_Filtering - Invoke Workflow File (Reporting\TestSummary_Filtering.xaml)" sap:VirtualizedContainerService.HintSize="353.6,48" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_15" UnSafe="False" WorkflowFileName="Reporting\TestSummary_Filtering.xaml">
+                                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="TestSummary_Filtering - Invoke Workflow File (Reporting\TestSummary_Filtering.xaml)" sap:VirtualizedContainerService.HintSize="353.6,167.2" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_15" UnSafe="False" WorkflowFileName="Reporting\TestSummary_Filtering.xaml">
                                     <ui:InvokeWorkflowFile.Arguments>
                                       <InArgument x:TypeArguments="x:Object" x:Key="in_str_Status">["Pass"]</InArgument>
                                       <InArgument x:TypeArguments="x:Object" x:Key="in_str_Comments" />
@@ -643,7 +644,7 @@
                                     </ui:InvokeWorkflowFile.Arguments>
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
@@ -689,18 +690,46 @@
                                 </uix:TargetAnchorable>
                               </uix:NClick.Target>
                             </uix:NClick>
-                            <ui:RetryScope DisplayName="Refresh DRL Status Sent (till SENT)" sap:VirtualizedContainerService.HintSize="633.6,2022.4" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="5" RetryInterval="00:01:00">
+                            <ui:RetryScope DisplayName="Refresh DRL Status Sent (till SENT)" sap:VirtualizedContainerService.HintSize="633.6,1587.2" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="5" RetryInterval="00:01:00">
                               <ui:RetryScope.ActivityBody>
                                 <ActivityAction>
-                                  <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="512,1741.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                  <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="512,1388" sap2010:WorkflowViewState.IdRef="Sequence_9">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="7" DelayBefore="3" DisplayName="Refresh DRL " sap:VirtualizedContainerService.HintSize="449.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
+                                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_7">
+                                      <ui:CommentOut.Body>
+                                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,269.6" sap2010:WorkflowViewState.IdRef="Sequence_58">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="7" DelayBefore="3" DisplayName="Refresh DRL " sap:VirtualizedContainerService.HintSize="353.6,180.8" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
+                                            <uix:NClick.Target>
+                                              <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/admin/clients/2023" CVScreenId="f88bdc6b-ef42-4d29-9ed0-a5d0af78d114" CvElementArea="165, 545, 29, 29" CvType="Icon" DesignTimeRectangle="163, 543, 34, 34" DesignTimeScaleFactor="1.25" ElementType="Icon" FullSelectorArgument="&lt;webctrl class='MuiSvgIcon-root' parentid='administrativeModules' tag='svg' /&gt;" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl class='MuiSvgIcon-root' parentid='administrativeModules' tag='svg' type='' aaname='' /&gt;" Guid="b5240b10-83d5-4f0f-bdea-3d350bfc71a8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJvSURBVFhH7ZbLa1NBFIf9X3QhCPWxUauCiEW3LtStq2rBPha+qLWC0ocUKaUVqSDGpo25aRNjGlCbGlJr0tgs2lqJWlF8YJPm9S8c7xk6483k5CSRCBXu4lvkzm9OPu6dOTPbCoUCbAVsER1bRMcW0fl/RVIbWXCF30Hr/Vk40e2DhtZxaGgbh5M3fdA++gqMyCpsZHMl8wam4iXPrNQk4o8m4dAVA7Y3O1iOdk7CTGJNzRv0LYrn1lo6VYv0GQtFf7a7bQLO9Afh2qM5wem+afF2rJkh/yKMBBLqN1VXUpVIrzumih245AZP5D2ZQ5yzK7C3fULlrVB5SUWRQOyDKtTU5YW1b+tkzsrSpx/ijVklECorYUV+pjKw33wDWKTxshs+f0+ROZ273rclEgiVlbAiD18sqSK++SSZ0Rny/1kTOlRewoqcG3wuCuC6oMZ1+j3FC1qHmiNhRRo3t2rHgzA5biUY/yh2Dgc1T8KK7LroFCK3XFFyvJ6wIrIvdDvnyfF6woocuz4lRJqHX5Lj9YQVuTASEiL7OlyQz9MZDjyXcAEjuIaojIQVGQutCBHEYLppOQYm42o+NkYqI2FF1tNZ0ciwUC0NDcHuKtfYcbMj5/J5MidhRZDpv2jx0dWv4nPKecEF/rMgFUWQXqP40CvXZdOZnPgcO1vGVL7nSYzM6lQlgtw2e4ksjuwxT9izd4LQ6ZiDrsevxc46ctWjxnecd8DwswRZi6JqEeTpmyQc3DwEOQ6bQpHlL2SNctQkgvxKZ8RuarkXgqYbXrEg8f5xqidgXhXD4JhZJq+KlahZ5F9hi+jYIjpbRKQAvwFq0iKXa/au7QAAAABJRU5ErkJggg==" InformativeScreenshot="adbed81e11dff613a8de2dc4b729c15e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*Administrative - TaxCaddy CPA' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                                            </uix:NClick.Target>
+                                          </uix:NClick>
+                                        </Sequence>
+                                      </ui:CommentOut.Body>
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </ui:CommentOut>
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DisplayName="Refresh DRL " sap:VirtualizedContainerService.HintSize="449.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_29" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="20206c93-a4f3-4010-9410-ee407c9023bb" Version="V3">
                                       <uix:NClick.Target>
-                                        <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/admin/clients/2023" CVScreenId="f88bdc6b-ef42-4d29-9ed0-a5d0af78d114" CvElementArea="165, 545, 29, 29" CvType="Icon" DesignTimeRectangle="163, 543, 34, 34" DesignTimeScaleFactor="1.25" ElementType="Icon" FullSelectorArgument="&lt;webctrl class='MuiSvgIcon-root' parentid='administrativeModules' tag='svg' /&gt;" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl class='MuiSvgIcon-root' parentid='administrativeModules' tag='svg' type='' aaname='' /&gt;" Guid="b5240b10-83d5-4f0f-bdea-3d350bfc71a8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJvSURBVFhH7ZbLa1NBFIf9X3QhCPWxUauCiEW3LtStq2rBPha+qLWC0ocUKaUVqSDGpo25aRNjGlCbGlJr0tgs2lqJWlF8YJPm9S8c7xk6483k5CSRCBXu4lvkzm9OPu6dOTPbCoUCbAVsER1bRMcW0fl/RVIbWXCF30Hr/Vk40e2DhtZxaGgbh5M3fdA++gqMyCpsZHMl8wam4iXPrNQk4o8m4dAVA7Y3O1iOdk7CTGJNzRv0LYrn1lo6VYv0GQtFf7a7bQLO9Afh2qM5wem+afF2rJkh/yKMBBLqN1VXUpVIrzumih245AZP5D2ZQ5yzK7C3fULlrVB5SUWRQOyDKtTU5YW1b+tkzsrSpx/ijVklECorYUV+pjKw33wDWKTxshs+f0+ROZ273rclEgiVlbAiD18sqSK++SSZ0Rny/1kTOlRewoqcG3wuCuC6oMZ1+j3FC1qHmiNhRRo3t2rHgzA5biUY/yh2Dgc1T8KK7LroFCK3XFFyvJ6wIrIvdDvnyfF6woocuz4lRJqHX5Lj9YQVuTASEiL7OlyQz9MZDjyXcAEjuIaojIQVGQutCBHEYLppOQYm42o+NkYqI2FF1tNZ0ciwUC0NDcHuKtfYcbMj5/J5MidhRZDpv2jx0dWv4nPKecEF/rMgFUWQXqP40CvXZdOZnPgcO1vGVL7nSYzM6lQlgtw2e4ksjuwxT9izd4LQ6ZiDrsevxc46ctWjxnecd8DwswRZi6JqEeTpmyQc3DwEOQ6bQpHlL2SNctQkgvxKZ8RuarkXgqYbXrEg8f5xqidgXhXD4JhZJq+KlahZ5F9hi+jYIjpbRKQAvwFq0iKXa/au7QAAAABJRU5ErkJggg==" InformativeScreenshot="adbed81e11dff613a8de2dc4b729c15e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*Administrative - TaxCaddy CPA' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                                        <uix:TargetAnchorable BrowserURL="https://cpa.taxcaddy.com/#/cpa/admin/clients/2024" CVScreenId="92f7d9c1-df30-4ba0-bdb8-08996dee3837" CvElementArea="159, 656, 30, 30" CvType="Icon" DesignTimeRectangle="159, 657, 30, 30" DesignTimeScaleFactor="1.25" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='administrativeModules' tag='svg' idx='4' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='administrativeModules' tag='svg' type='' class='MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1546r62' aaname='' /&gt;" Guid="6d8f349e-8dda-4bd2-b577-7c38d2b6b597" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAJ3SURBVFhH7ZbbS1RRFIf9Y0IIoos9JGVBIYbPgfhQkGQJU6ZZWQRpIZWBaCpBhIRzU+eWMiOlzQw4jpcm6TJYFiYRUeM4l79hddaufdyzZ7nnHJigh/PwwczZv73Ox9n7rLMr8vk8/A9YIjKWiIwlImNaZHMrC2OzSWh9FIH6zuewr9kF+8+7of7GJLQNRcAbXYWtTLZoXt/466JrIqZEpmKf4OhlL+w6Park+BUfhBPr+rwBT4JdF2vJGBZ54FoquNkB7Sk03AnBzSdzDPyNT0fMDHoT8Diwov+n6nIMidxzLOrFqi9OgC/6kcwhLm3ZqlrG9LwIleeUFAnOr+mF6q4FYP17isyJvP/ygz0xUQKhshylyM9UBg7ZxlmRI60e+GpAAun/uydkqCxHKTISeqcXmYytkRmZQd+bgpuLUHmOUqSpd4YVwH1Bjcs8dC8X3VyEmsNRitRoy4EF2oej5LjI9MJn9uaooOZxlCJ7mpxMpMe+SI6XE6UI7wvdz+LkeDlRipzo8DORlr5X5Hg5UYrY+sNM5KDWoHI5OqMCv0u9WkdGcA9RGY5SxDmTZCKIJ7JKZlTgh47Px8ZIZThKkVQ6yxoZFjLT0BDsrnvP/dljtVf9kM3lyBxHKYIE4+Zb/FLyG1tOPi8UVy8LUlIEue/c/vJic9upy6a1PYHLsfusQ8/jB5PKyhgSQXpGF/TiSNUFNzTenYZbT2Nwe2SevVnH2rbPKpVn7DDsXyFrURgWQaa0J3H40kSBEAUenubebpA1dsKUCPIrnQHHyyTYBsJw8nqANT08f5zqCmpHxSjYX3wgj4qlMC3yr7BEZCwRGUukkDz8BmLYEgUy50b3AAAAAElFTkSuQmCC" InformativeScreenshot="37f6575b76425e1eb9586c3165059170.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='TaxCaddy CPA' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CVScreenId="92f7d9c1-df30-4ba0-bdb8-08996dee3837" CvElementArea="222, 640, 284, 64" CvType="InputBox" DesignTimeRectangle="243, 648, 176, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl class='sBeaC' parentid='administrativeModules' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='sBeaC' parentid='administrativeModules' tag='SPAN' type='' aaname='Manage Clients' check:innerText='MANAGE CLIENTS' /&gt;" Guid="ff94900e-e0ff-4301-8ce8-84b890b137bd" SearchSteps="FuzzySelector" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
                                       </uix:NClick.Target>
                                     </uix:NClick>
                                     <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Fetch DRL Sent Status" sap:VirtualizedContainerService.HintSize="449.6,139.2" sap2010:WorkflowViewState.IdRef="GetValue_4">
@@ -718,7 +747,7 @@
                                         <OutArgument x:TypeArguments="x:String">[statusDRLSent]</OutArgument>
                                       </ui:GetValue.Value>
                                     </ui:GetValue>
-                                    <If Condition="[statusDRLSent.Trim.ToUpper.Equals(&quot;SENT&quot;) = true]" DisplayName="status DRL Sent validate" sap:VirtualizedContainerService.HintSize="449.6,1324" sap2010:WorkflowViewState.IdRef="If_3">
+                                    <If Condition="[statusDRLSent.Trim.ToUpper.Equals(&quot;SENT&quot;) = true]" DisplayName="status DRL Sent validate" sap:VirtualizedContainerService.HintSize="449.6,913.6" sap2010:WorkflowViewState.IdRef="If_3">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -726,14 +755,15 @@
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
                                       <If.Then>
-                                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,608" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,24.8" sap2010:WorkflowViewState.IdRef="Sequence_7">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;DRL Status Sent - &quot;+statusDRLSent]" />
-                                          <ui:LogMessage DisplayName="Log Message - VC_13" sap:VirtualizedContainerService.HintSize="353.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_31" Level="Info" Message="[&quot;VC_13: The DRL is sent successfully, and the status changes as 'SENT' : Pass&quot;]">
+                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Send DRL status - &quot;+statusDRLSent]" />
+                                          <ui:LogMessage DisplayName="Log Message - VC_13" sap:VirtualizedContainerService.HintSize="353.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_31" Level="Info" Message="[&quot;VC_13: The DRL is sent successfully, and the status changes as 'SENT' : Pass&quot;]">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -759,13 +789,13 @@
                                         </Sequence>
                                       </If.Then>
                                       <If.Else>
-                                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,554.4" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,727.2" sap2010:WorkflowViewState.IdRef="Sequence_8">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <ui:LogMessage DisplayName="Log Message - VC_13" sap:VirtualizedContainerService.HintSize="353.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_33" Level="Error" Message="[&quot;VC_13: Unable to sent DRL : Fail&quot;]">
+                                          <ui:LogMessage DisplayName="Log Message - VC_13" sap:VirtualizedContainerService.HintSize="353.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_33" Level="Error" Message="[&quot;VC_13: The DRL is sent successfully, and the status changes as 'SENT' : Fail&quot;]">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
@@ -773,10 +803,11 @@
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                           </ui:LogMessage>
+                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_40" Level="Error" Message="[&quot;Send DRL status - &quot;+statusDRLSent]" />
                                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="TestSummary_Filtering - Invoke Workflow File (Reporting\TestSummary_Filtering.xaml)" sap:VirtualizedContainerService.HintSize="353.6,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="Reporting\TestSummary_Filtering.xaml">
                                             <ui:InvokeWorkflowFile.Arguments>
                                               <InArgument x:TypeArguments="x:Object" x:Key="in_str_Status">["Fail"]</InArgument>
-                                              <InArgument x:TypeArguments="x:Object" x:Key="in_str_Comments" />
+                                              <InArgument x:TypeArguments="x:Object" x:Key="in_str_Comments">["The Send DRL status is -"+ statusDRLSent]</InArgument>
                                               <InArgument x:TypeArguments="x:String" x:Key="in_str_SubComponent">DRL</InArgument>
                                               <InOutArgument x:TypeArguments="sd:DataTable" x:Key="inOut_dtTestSummaryReport">[in_dictTestSummaryReport("DRL")]</InOutArgument>
                                               <InArgument x:TypeArguments="scg:List(x:String)" x:Key="in_listTestCaseID">[New List(Of String) From {"VC_13"}]</InArgument>

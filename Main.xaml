@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1150.4,1915.2</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1408.8,1915.2</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Main2_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -228,7 +228,7 @@
           </ui:AddLogFields>
           <ui:LogMessage DisplayName="Log execution started message" sap:VirtualizedContainerService.HintSize="433.6,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_41" Level="Trace" Message="[&quot;Tax caddy Dispatcher &quot;+wbPath + &quot; execution started.&quot;]" />
         </Sequence>
-        <StateMachine InitialState="{x:Reference __ReferenceID2}" sap2010:Annotation.AnnotationText="This is a template for running production-ready process models. This is the main entry point of the program.&#xA;You are receiving a pre-configuered state machine that implements retry-able components with interfaces built-in for the user to write his own business logic. &#xA;You can begin work right away by editing the business layer components found in the ProcessLayer folder. &#xA;To learn more about how all of this works, read the documents included in the Documentation Folder. " DisplayName="ReFramework - Transactional business process engine" sap:VirtualizedContainerService.HintSize="656,636.8" sap2010:WorkflowViewState.IdRef="StateMachine_2">
+        <StateMachine InitialState="{x:Reference __ReferenceID2}" sap2010:Annotation.AnnotationText="This is a template for running production-ready process models. This is the main entry point of the program.&#xA;You are receiving a pre-configuered state machine that implements retry-able components with interfaces built-in for the user to write his own business logic. &#xA;You can begin work right away by editing the business layer components found in the ProcessLayer folder. &#xA;To learn more about how all of this works, read the documents included in the Documentation Folder. " DisplayName="ReFramework - Transactional business process engine" sap:VirtualizedContainerService.HintSize="656,660" sap2010:WorkflowViewState.IdRef="StateMachine_2">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -414,9 +414,9 @@
                 </sap:WorkflowViewStateService.ViewState>
                 <Transition.Condition>[TransactionItem IsNot Nothing and SystemError Is Nothing]</Transition.Condition>
                 <Transition.To>
-                  <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="##Framework Layer##&#xA;Interact with applications opened in Init state using data obtained in the Data Layer. A transaction that fails with a BusinessRuleException will not be retried. All others exceptions will be." DisplayName="Process Transaction State" sap:VirtualizedContainerService.HintSize="156,61.6" sap2010:WorkflowViewState.IdRef="State_6">
+                  <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="##Framework Layer##&#xA;Interact with applications opened in Init state using data obtained in the Data Layer. A transaction that fails with a BusinessRuleException will not be retried. All others exceptions will be." DisplayName="Process Transaction State" sap:VirtualizedContainerService.HintSize="481.6,818.4" sap2010:WorkflowViewState.IdRef="State_6">
                     <State.Entry>
-                      <TryCatch sap2010:Annotation.AnnotationText="ProcessTransaction state guard" DisplayName="ProcessTransaction" sap:VirtualizedContainerService.HintSize="436.8,291.2" sap2010:WorkflowViewState.IdRef="TryCatch_40">
+                      <TryCatch sap2010:Annotation.AnnotationText="ProcessTransaction state guard" DisplayName="ProcessTransaction" sap:VirtualizedContainerService.HintSize="436.8,375.2" sap2010:WorkflowViewState.IdRef="TryCatch_40">
                         <TryCatch.Try>
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke ProcessTransaction workflow" sap:VirtualizedContainerService.HintSize="334.4,144" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_151" UnSafe="False" WorkflowFileName="ProcessLayer\ProcessTransaction.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
@@ -705,7 +705,7 @@
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                         <Transition.To>
-                          <State x:Name="__ReferenceID2" sap2010:Annotation.AnnotationText="##Framework Layer##&#xA;Read Config. Initialize all applications. Recover the environment from System Error by Closing and Initializing all applications." DisplayName="Init State" sap:VirtualizedContainerService.HintSize="832,3937.6" sap2010:WorkflowViewState.IdRef="State_8">
+                          <State x:Name="__ReferenceID2" sap2010:Annotation.AnnotationText="##Framework Layer##&#xA;Read Config. Initialize all applications. Recover the environment from System Error by Closing and Initializing all applications." DisplayName="Init State" sap:VirtualizedContainerService.HintSize="140,61.6" sap2010:WorkflowViewState.IdRef="State_8">
                             <State.Entry>
                               <TryCatch sap2010:Annotation.AnnotationText="Initialization state guard" DisplayName="Init" sap:VirtualizedContainerService.HintSize="787.2,3494.4" sap2010:WorkflowViewState.IdRef="TryCatch_33">
                                 <TryCatch.Variables>
